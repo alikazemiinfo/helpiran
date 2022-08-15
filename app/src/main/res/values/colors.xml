@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+
+    <!--    custumize khodam-->
+    <color name="abie_firozei">#00ACC1</color>
+    <color name="abie_dark">#0097A7</color>
+    <color name="sorati_ghermez">#F06292</color>
+    <color name="gold">#FFCA28</color>
+    <color name="gray">#AEAEAE</color>
+    <color name="red">#C61919</color>
+    <color name="sabz">#43A047</color>
 </resources>

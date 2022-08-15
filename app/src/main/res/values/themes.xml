@@ -18,4 +18,15 @@
         <item name="colorSurface">#EFEFEF</item>
         <item name="colorOnSurface">#757575</item>
     </style>
+
+
+<!--    custumize tool bar (ham baray light ham night)-->
+    <style name="customizetoolbar" parent="Theme.MaterialComponents">
+        <item name="fontFamily">@font/productsansbold</item>
+        <item name="android:textSize">26sp</item>
+
+
+    </style>
+
+
 </resources>

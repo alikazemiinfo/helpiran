@@ -25,10 +25,13 @@ font sans
 font sansbold
 font yekan1
 font yekanbold
+id appbar_main
+id toolbar_main_zirmajmoe
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 style Theme.Helpiran
+style customizetoolbar
 xml backup_rules
 xml data_extraction_rules

@@ -33,4 +33,10 @@
         <item name="colorSurface">#EFEFEF</item>
         <item name="colorOnSurface">#757575</item>
     </style>
+    <style name="customizetoolbar" parent="Theme.MaterialComponents">
+        <item name="fontFamily">@font/productsansbold</item>
+        <item name="android:textSize">26sp</item>
+
+
+    </style>
 </resources>

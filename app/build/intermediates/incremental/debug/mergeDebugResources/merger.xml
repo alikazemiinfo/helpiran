@@ -10397,6 +10397,11 @@
         <item name="colorAccent">#FFF</item>
         <item name="colorSurface">#EFEFEF</item>
         <item name="colorOnSurface">#757575</item>
+    </style><style name="customizetoolbar" parent="Theme.MaterialComponents">
+        <item name="fontFamily">@font/productsansbold</item>
+        <item name="android:textSize">26sp</item>
+
+
     </style></file><file path="C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.Helpiran" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/black</item>

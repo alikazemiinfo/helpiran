@@ -2627,6 +2627,7 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appbar_main
 id arc
 id asConfigured
 id async
@@ -3005,6 +3006,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar_main_zirmajmoe
 id top
 id topPanel
 id touch_outside
@@ -4401,6 +4403,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style customizetoolbar
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

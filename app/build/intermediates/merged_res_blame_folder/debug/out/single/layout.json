@@ -2,5 +2,9 @@
     {
         "merged": "ir.ez4.helpiran.app-mergeDebugResources-27:/layout/activity_main.xml",
         "source": "ir.ez4.helpiran.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-27:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\activity_main.xml"
     }
 ]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="پروفایل من"
+        android:icon="@drawable/ic_myprofile"
+        android:id="@+id/menu_myprofile"/>
+
+            <item
+                android:icon="@drawable/ic_ir_porbazdid"
+                android:title="پر بازدید ها"
+                android:id="@+id/menu_porbazdid"/>
+            <item
+                android:checked="true"
+                android:icon="@drawable/ic_home"
+                android:title="خانه"
+                android:id="@+id/menu_khane"/>
+
+            <item
+                android:icon="@drawable/ic_darbarema"
+                android:title="درباره ما"
+                android:id="@+id/menu_darbarema"/>
+    <item
+        android:icon="@drawable/ic_contactus"
+        android:title="تماس با ما"
+        android:id="@+id/menu_tamasbama"/>
+
+</menu>

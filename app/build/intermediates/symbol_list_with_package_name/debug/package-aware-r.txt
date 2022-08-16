@@ -2486,6 +2486,10 @@ drawable ic_calender
 drawable ic_camera
 drawable ic_chart
 drawable ic_clock_black_24dp
+drawable ic_contactus
+drawable ic_darbarema
+drawable ic_home
+drawable ic_ir_porbazdid
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -2498,6 +2502,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_myprofile
 drawable ic_write
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2826,10 +2831,15 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menu_darbarema
 id menu_firstitem
 id menu_forthitem
+id menu_khane
+id menu_myprofile
 id menu_opener
+id menu_porbazdid
 id menu_seconditem
+id menu_tamasbama
 id menu_thirditem
 id message
 id middle
@@ -3240,6 +3250,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu menu_navigation_asli
+menu menu_navigation_bottom_asli
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

@@ -8,7 +8,9 @@
         android:id="@+id/menu_firstitem"/>
 
 
-    <item android:title="قسمت مدیریت">
+    <item android:title="قسمت مدیریت"
+
+        >
 
         <menu>
 

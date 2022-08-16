@@ -46,9 +46,12 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+//        باز کردن منو با کلیک بر ر.ی ایکون منو
         binding.menuOpener.setOnClickListener {
             binding.drawerMain.openDrawer(binding.navigationvieewMain)
         }
+
+//        قسمت باز کردن منو با استفاده از کلیک بر روی اسم برنامه
         binding.toolbarMainZirmajmoe.setOnClickListener {
             binding.drawerMain.openDrawer(binding.navigationvieewMain)
         }

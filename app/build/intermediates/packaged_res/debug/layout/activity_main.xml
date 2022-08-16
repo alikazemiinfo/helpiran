@@ -2,14 +2,13 @@
 <!--navigation drawer added-->
 <androidx.drawerlayout.widget.DrawerLayout
     android:id="@+id/drawer_main"
-    tools:openDrawer="right"
     android:layout_gravity="end"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+<!--بدنه اصلی-->
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -43,16 +42,23 @@
 
 
         </com.google.android.material.appbar.AppBarLayout>
+<!--این قسمت برای اضافه کردن منوی پایین یا همان باتم نویگیشن هستش-->
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            app:menu="@menu/menu_navigation_bottom_asli"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"/>
+
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-    
+
+<!--    قسمت منو بار -->
     <com.google.android.material.navigation.NavigationView
         app:menu="@menu/menu_navigation_asli"
         app:headerLayout="@layout/header_asli"
-        android:fitsSystemWindows="true"
         android:id="@+id/navigationvieew_main"
         android:layout_gravity="end"
-        tools:openDrawer="right"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"/>
 </androidx.drawerlayout.widget.DrawerLayout>

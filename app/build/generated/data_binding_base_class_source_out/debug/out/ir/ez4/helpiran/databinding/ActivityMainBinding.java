@@ -4,13 +4,15 @@ package ir.ez4.helpiran.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.navigation.NavigationView;
 import ir.ez4.helpiran.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -18,24 +20,37 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final DrawerLayout rootView;
 
   @NonNull
   public final AppBarLayout appbarMain;
 
   @NonNull
+  public final DrawerLayout drawerMain;
+
+  @NonNull
+  public final ImageView menuOpener;
+
+  @NonNull
+  public final NavigationView navigationvieewMain;
+
+  @NonNull
   public final Toolbar toolbarMainZirmajmoe;
 
-  private ActivityMainBinding(@NonNull CoordinatorLayout rootView, @NonNull AppBarLayout appbarMain,
-      @NonNull Toolbar toolbarMainZirmajmoe) {
+  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull AppBarLayout appbarMain,
+      @NonNull DrawerLayout drawerMain, @NonNull ImageView menuOpener,
+      @NonNull NavigationView navigationvieewMain, @NonNull Toolbar toolbarMainZirmajmoe) {
     this.rootView = rootView;
     this.appbarMain = appbarMain;
+    this.drawerMain = drawerMain;
+    this.menuOpener = menuOpener;
+    this.navigationvieewMain = navigationvieewMain;
     this.toolbarMainZirmajmoe = toolbarMainZirmajmoe;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -66,14 +81,28 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      DrawerLayout drawerMain = (DrawerLayout) rootView;
+
+      id = R.id.menu_opener;
+      ImageView menuOpener = ViewBindings.findChildViewById(rootView, id);
+      if (menuOpener == null) {
+        break missingId;
+      }
+
+      id = R.id.navigationvieew_main;
+      NavigationView navigationvieewMain = ViewBindings.findChildViewById(rootView, id);
+      if (navigationvieewMain == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar_main_zirmajmoe;
       Toolbar toolbarMainZirmajmoe = ViewBindings.findChildViewById(rootView, id);
       if (toolbarMainZirmajmoe == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((CoordinatorLayout) rootView, appbarMain,
-          toolbarMainZirmajmoe);
+      return new ActivityMainBinding((DrawerLayout) rootView, appbarMain, drawerMain, menuOpener,
+          navigationvieewMain, toolbarMainZirmajmoe);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

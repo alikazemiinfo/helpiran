@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_logo_hepiran.xml" value="0.199" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_menu.xml" value="0.196" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/header_asli.xml" value="0.33" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_navigation_asli.xml" value="0.365625" />
       </map>
     </option>
   </component>

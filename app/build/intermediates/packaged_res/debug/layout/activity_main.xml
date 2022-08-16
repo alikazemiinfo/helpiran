@@ -1,27 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout
-
-
+<!--navigation drawer added-->
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@+id/drawer_main"
+    tools:openDrawer="right"
+    android:layout_gravity="end"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appbar_main"
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
 
-        <androidx.appcompat.widget.Toolbar
-            app:titleTextAppearance="@style/customizetoolbar"
-            android:theme="@style/customizetoolbar"
-            android:id="@+id/toolbar_main_zirmajmoe"
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar_main"
             android:layout_width="match_parent"
-            android:layout_height="56dp"/>
+            android:layout_height="wrap_content">
 
 
-    </com.google.android.material.appbar.AppBarLayout>
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_main_zirmajmoe"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:theme="@style/customizetoolbar"
+                app:titleTextAppearance="@style/customizetoolbar" >
+
+                <ImageView
+                    android:id="@+id/menu_opener"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_vertical|end"
+                    android:src="@drawable/ic_menu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    
+    <com.google.android.material.navigation.NavigationView
+        app:menu="@menu/menu_navigation_asli"
+        app:headerLayout="@layout/header_asli"
+        android:fitsSystemWindows="true"
+        android:id="@+id/navigationvieew_main"
+        android:layout_gravity="end"
+        tools:openDrawer="right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+</androidx.drawerlayout.widget.DrawerLayout>

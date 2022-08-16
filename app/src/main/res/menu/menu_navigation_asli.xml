@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="نویسنده شوید"
+        android:icon="@drawable/ic_write"
+        android:id="@+id/menu_firstitem"/>
+
+
+    <item android:title="قسمت مدیریت">
+
+        <menu>
+
+            <item
+                android:icon="@drawable/ic_calender"
+                android:title="مدیریت زمان"
+                android:id="@+id/menu_seconditem"/>
+            <item
+                android:icon="@drawable/ic_camera"
+                android:title="مدیریت عکس ها"
+                android:id="@+id/menu_thirditem"/>
+            <item
+                android:icon="@drawable/ic_chart"
+                android:title="مدیریت نقدینگی"
+                android:id="@+id/menu_forthitem"/>
+        </menu>
+
+    </item>
+
+</menu>

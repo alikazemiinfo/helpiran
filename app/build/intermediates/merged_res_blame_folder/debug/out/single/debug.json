@@ -16,6 +16,14 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_header_asli.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\header_asli.xml"
+    },
+    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_productsansbolditalic.ttf.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\productsansbolditalic.ttf"
     },
@@ -52,16 +60,32 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\yekanbold.ttf"
     },
     {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_calender.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_calender.xml"
+    },
+    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_sansbold.ttf.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\sansbold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_write.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_write.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_camera.xml"
+    },
+    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_logo_hepiran.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_logo_hepiran.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_productsans_italic.ttf.flat",
@@ -88,8 +112,20 @@
         "source": "ir.ez4.helpiran.app-main-30:/layout/activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_chart.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_chart.xml"
+    },
+    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "ir.ez4.helpiran.app-merged_res-28:/drawable_ic_menu.xml.flat",
+        "source": "ir.ez4.helpiran.app-main-30:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\menu_menu_navigation_asli.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\menu\\menu_navigation_asli.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

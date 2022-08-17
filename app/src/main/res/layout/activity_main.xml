@@ -63,8 +63,7 @@
 </androidx.core.widget.NestedScrollView>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
-
-
+            android:background="?attr/colorPrimaryVariant"
             app:itemTextColor="@drawable/bottom_nav_selector"
             app:itemIconTint="@drawable/bottom_nav_selector"
             app:itemIconSize="25dp"
@@ -81,6 +80,10 @@
 
 <!--    قسمت منو بار -->
     <com.google.android.material.navigation.NavigationView
+
+        app:subheaderColor="@color/white"
+        app:itemTextColor="?attr/colorOnPrimary"
+        app:itemIconTint="@drawable/menu_colortext"
         app:menu="@menu/menu_navigation_asli"
         app:headerLayout="@layout/header_asli"
         android:id="@+id/navigationvieew_main"

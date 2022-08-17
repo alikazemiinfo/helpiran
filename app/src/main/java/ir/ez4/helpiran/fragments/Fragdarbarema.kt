@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.google.android.material.card.MaterialCardView
+import ir.ez4.helpiran.R
 import ir.ez4.helpiran.databinding.FragmentDarbaremaBinding
 import ir.ez4.helpiran.databinding.FragmentKhaneBinding
 import ir.ez4.helpiran.databinding.FragmentMyprofileBinding
@@ -22,5 +24,17 @@ class Fragdarbarema:Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        val card=view.findViewById<MaterialCardView>(R.id.card_asli)
+
+
+
+        card.setOnLongClickListener {
+
+            card.isChecked = !card.isChecked
+
+            true
+        }
+
     }
 }

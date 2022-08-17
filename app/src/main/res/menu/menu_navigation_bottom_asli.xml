@@ -14,16 +14,16 @@
                 android:id="@+id/menu_porbazdid" />
             <item
                 android:checked="true"
-                android:icon="@drawable/ic_home"
+                android:icon="@drawable/selector_khane"
                 android:title="خانه"
                 android:id="@+id/menu_khane"/>
 
             <item
-                android:icon="@drawable/ic_darbarema"
+                android:icon="@drawable/selector_darbarema"
                 android:title="درباره ما"
                 android:id="@+id/menu_darbarema"/>
     <item
-        android:icon="@drawable/ic_contactus"
+        android:icon="@drawable/selector_contactus"
         android:title="تماس با ما"
         android:id="@+id/menu_tamasbama"/>
 

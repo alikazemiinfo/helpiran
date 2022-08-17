@@ -1,31 +1,31 @@
 [
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_selector_drawables.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\selector_drawables.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-pngs-23:\\drawable-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_selector_drawables.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\selector_drawables.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_ir_porbazdid.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_ir_porbazdid.xml"
     },
     {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-pngs-23:\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_menu.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_menu.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_productsansbolditalic.ttf.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\productsansbolditalic.ttf"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_baseline_location_on_24.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_fragment_darbarema.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_darbarema.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_left.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_left.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -40,10 +40,6 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_yekanbold.ttf.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\yekanbold.ttf"
-    },
-    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_calender.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_calender.xml"
     },
@@ -52,40 +48,36 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\sansbold.ttf"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_write.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_write.xml"
-    },
-    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_eyefill.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_eyefill.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_myprofile.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_myprofile.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_yekan1.ttf.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\yekan1.ttf"
     },
     {
-        "merged": "ir.ez4.helpiran.app-merged_res-28:/layout_activity_main.xml.flat",
-        "source": "ir.ez4.helpiran.app-main-30:/layout/activity_main.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_menu_colortext.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\menu_colortext.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\color_color_porbazdid.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\color\\color_porbazdid.xml"
+        "merged": "ir.ez4.helpiran.app-merged_res-28:/layout_fragment_darbarema.xml.flat",
+        "source": "ir.ez4.helpiran.app-main-30:/layout/fragment_darbarema.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-pngs-23:\\drawable-ldpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_selector_porbazdid.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\selector_porbazdid.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_homeoutfill2.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_homeoutfill2.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_fragment_myprofile.xml.flat",
@@ -96,6 +88,182 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_profilefill.xml"
     },
     {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_alert.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_selector_khane.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\selector_khane.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_canceled.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_canceled.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "ir.ez4.helpiran.app-merged_res-28:/layout_item_card.xml.flat",
+        "source": "ir.ez4.helpiran.app-main-30:/layout/item_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_fragment_porbazdid.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_porbazdid.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_baseline_arrow_drop_down_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_baseline_arrow_drop_down_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_deleiverd.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_deleiverd.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_bottom_nav_selector.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\bottom_nav_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\menu_menu_navigation_bottom_asli.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\menu\\menu_navigation_bottom_asli.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_homefill2.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_homefill2.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_selector_darbarema.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\selector_darbarema.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_waitingtopay.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_waitingtopay.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_chart.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_emailfill.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_emailfill.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_alaghe.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_alaghe.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-v24_ic_myprofilefill.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable-v24\\ic_myprofilefill.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-pngs-23:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_setting.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_darbarema.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_darbarema.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_manage.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_productsansbolditalic.ttf.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\productsansbolditalic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_baseline_chat_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_baseline_chat_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_baseline_check_box_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_baseline_check_box_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_safesavings.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_safesavings.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_fragment_darbarema.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_darbarema.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_outline_card_giftcard_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_outline_card_giftcard_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_item_card.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\item_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_yekanbold.ttf.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\yekanbold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_write.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_write.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_contactusfill.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_contactusfill.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_baseline_block_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_baseline_block_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_eyefill.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_eyefill.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-pngs-23:\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\color_color_porbazdid.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\color\\color_porbazdid.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_outline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_outline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_pardazesh.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_pardazesh.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_outline_mode_comment_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_outline_mode_comment_24.xml"
+    },
+    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\menu_menu_navigation_asli.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\menu\\menu_navigation_asli.xml"
     },
@@ -104,16 +272,24 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\selector_myprofile.xml"
     },
     {
-        "merged": "ir.ez4.helpiran.app-merged_res-28:/drawable_bottom_nav_selector.xml.flat",
-        "source": "ir.ez4.helpiran.app-main-30:/drawable/bottom_nav_selector.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_returned.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_returned.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_outline_location_on_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_outline_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-pngs-23:\\drawable-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-pngs-23:\\drawable-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -124,28 +300,20 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\header_asli.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_baseline_subscriptions_24.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_baseline_subscriptions_24.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_fragment_porbazdid.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_porbazdid.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_productsans_momoli.ttf.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\productsans_momoli.ttf"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_bottom_nav_selector.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\bottom_nav_selector.xml"
-    },
-    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_dima_shekasteh.ttf.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\dima_shekasteh.ttf"
-    },
-    {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\menu_menu_navigation_bottom_asli.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\menu\\menu_navigation_bottom_asli.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_camera.xml.flat",
@@ -160,16 +328,12 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_productsans_italic.ttf.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\productsans_italic.ttf"
-    },
-    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_logo_hepiran.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_logo_hepiran.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_productsans_italic.ttf.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\font\\productsans_italic.ttf"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -180,28 +344,20 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_contactus.xml"
     },
     {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_homefill.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_homefill.xml"
+    },
+    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_profileoutfill.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_profileoutfill.xml"
-    },
-    {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_chart.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_chart.xml"
-    },
-    {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\layout_fragment_contactus.xml.flat",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_contactus.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-v24_ic_myprofilefill.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable-v24\\ic_myprofilefill.xml"
-    },
-    {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-pngs-23:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_selector_contactus.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\selector_contactus.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\font_productsansbold.ttf.flat",
@@ -212,12 +368,12 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_eyeoutfill.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_eyeoutfill.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_wallet.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_wallet.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_darbarema.xml.flat",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_darbarema.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\drawable_ic_eyeoutfill.xml.flat",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\drawable\\ic_eyeoutfill.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",

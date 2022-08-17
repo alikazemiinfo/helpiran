@@ -2,6 +2,7 @@
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="abie_dark">#0097A7</color>
     <color name="abie_firozei">#00ACC1</color>
+    <color name="abieasemani">#87CEEB</color>
     <color name="black">#FF000000</color>
     <color name="gold">#FFCA28</color>
     <color name="gray">#AEAEAE</color>
@@ -16,7 +17,12 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">helpiran</string>
     <string name="closedrawer">closemenu</string>
+    <string name="nameofcontent">جناب آقای علی کاظمی</string>
     <string name="opendrawer">openmenu</string>
+    <string name="payamha">payamha</string>
+    <string name="sefareshhayman">سفارش های من</string>
+    <string name="setting">setting</string>
+    <string name="view">200نفر ویدیو را تماشا کردند</string>
     <style name="Theme.Helpiran" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/abie_firozei</item>
@@ -34,6 +40,8 @@
         <item name="colorAccent">#FFF</item>
         <item name="colorSurface">@color/abie_dark</item>
         <item name="colorOnSurface">#FFFFFF</item>
+
+
     </style>
     <style name="customizetoolbar" parent="Theme.MaterialComponents">
         <item name="fontFamily">@font/productsansbold</item>

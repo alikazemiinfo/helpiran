@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <item name="sefarsha" type="id"/>
+    <item name="view3" type="id"/>
     <style name="Theme.Helpiran" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/black</item>

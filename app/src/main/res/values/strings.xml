@@ -2,4 +2,9 @@
     <string name="app_name">helpiran</string>
     <string name="opendrawer">openmenu</string>
     <string name="closedrawer">closemenu</string>
+    <string name="nameofcontent">جناب آقای علی کاظمی</string>
+    <string name="view">200نفر ویدیو را تماشا کردند</string>
+    <string name="sefareshhayman">سفارش های من</string>
+    <string name="payamha">payamha</string>
+    <string name="setting">setting</string>
 </resources>

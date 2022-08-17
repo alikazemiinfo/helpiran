@@ -15,8 +15,8 @@
         <!-- Customize your theme here. -->
 
         <item name="colorAccent">#FFF</item>
-        <item name="colorSurface">#EFEFEF</item>
-        <item name="colorOnSurface">#757575</item>
+        <item name="colorSurface">@color/abie_dark</item>
+        <item name="colorOnSurface">#FFFFFF</item>
     </style>
 
 

@@ -44,7 +44,33 @@
         </com.google.android.material.appbar.AppBarLayout>
 <!--این قسمت برای اضافه کردن منوی پایین یا همان باتم نویگیشن هستش-->
 
+<androidx.core.widget.NestedScrollView
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="56dp"
+    >
+
+
+
+        <FrameLayout
+            android:id="@+id/frm_layout_container"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</androidx.core.widget.NestedScrollView>
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
+
+
+            app:itemTextColor="@drawable/bottom_nav_selector"
+            app:itemIconTint="@drawable/bottom_nav_selector"
+            app:itemIconSize="25dp"
+            app:labelVisibilityMode="labeled"
+            style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+            android:id="@+id/btom_navigation_main"
             app:menu="@menu/menu_navigation_bottom_asli"
             android:layout_gravity="bottom"
             android:layout_width="match_parent"

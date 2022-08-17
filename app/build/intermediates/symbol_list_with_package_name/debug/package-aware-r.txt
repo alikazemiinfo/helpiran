@@ -2469,6 +2469,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bottom_nav_selector
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2488,6 +2489,8 @@ drawable ic_chart
 drawable ic_clock_black_24dp
 drawable ic_contactus
 drawable ic_darbarema
+drawable ic_eyefill
+drawable ic_eyeoutfill
 drawable ic_home
 drawable ic_ir_porbazdid
 drawable ic_keyboard_black_24dp
@@ -2503,6 +2506,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_myprofile
+drawable ic_profilefill
+drawable ic_profileoutfill
 drawable ic_write
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2545,6 +2550,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable selector_myprofile
+drawable selector_porbazdid
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2658,6 +2665,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btom_navigation_main
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2763,6 +2771,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id frm_layout_container
 id frost
 id fullscreen_header
 id ghost_view
@@ -3174,6 +3183,11 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_contactus
+layout fragment_darbarema
+layout fragment_khane
+layout fragment_myprofile
+layout fragment_porbazdid
 layout header_asli
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

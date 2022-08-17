@@ -4,6 +4,7 @@ package ir.ez4.helpiran.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,6 +13,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import ir.ez4.helpiran.R;
 import java.lang.NullPointerException;
@@ -26,7 +28,13 @@ public final class ActivityMainBinding implements ViewBinding {
   public final AppBarLayout appbarMain;
 
   @NonNull
+  public final BottomNavigationView btomNavigationMain;
+
+  @NonNull
   public final DrawerLayout drawerMain;
+
+  @NonNull
+  public final FrameLayout frmLayoutContainer;
 
   @NonNull
   public final ImageView menuOpener;
@@ -38,11 +46,14 @@ public final class ActivityMainBinding implements ViewBinding {
   public final Toolbar toolbarMainZirmajmoe;
 
   private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull AppBarLayout appbarMain,
-      @NonNull DrawerLayout drawerMain, @NonNull ImageView menuOpener,
+      @NonNull BottomNavigationView btomNavigationMain, @NonNull DrawerLayout drawerMain,
+      @NonNull FrameLayout frmLayoutContainer, @NonNull ImageView menuOpener,
       @NonNull NavigationView navigationvieewMain, @NonNull Toolbar toolbarMainZirmajmoe) {
     this.rootView = rootView;
     this.appbarMain = appbarMain;
+    this.btomNavigationMain = btomNavigationMain;
     this.drawerMain = drawerMain;
+    this.frmLayoutContainer = frmLayoutContainer;
     this.menuOpener = menuOpener;
     this.navigationvieewMain = navigationvieewMain;
     this.toolbarMainZirmajmoe = toolbarMainZirmajmoe;
@@ -81,7 +92,19 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btom_navigation_main;
+      BottomNavigationView btomNavigationMain = ViewBindings.findChildViewById(rootView, id);
+      if (btomNavigationMain == null) {
+        break missingId;
+      }
+
       DrawerLayout drawerMain = (DrawerLayout) rootView;
+
+      id = R.id.frm_layout_container;
+      FrameLayout frmLayoutContainer = ViewBindings.findChildViewById(rootView, id);
+      if (frmLayoutContainer == null) {
+        break missingId;
+      }
 
       id = R.id.menu_opener;
       ImageView menuOpener = ViewBindings.findChildViewById(rootView, id);
@@ -101,8 +124,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((DrawerLayout) rootView, appbarMain, drawerMain, menuOpener,
-          navigationvieewMain, toolbarMainZirmajmoe);
+      return new ActivityMainBinding((DrawerLayout) rootView, appbarMain, btomNavigationMain,
+          drawerMain, frmLayoutContainer, menuOpener, navigationvieewMain, toolbarMainZirmajmoe);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

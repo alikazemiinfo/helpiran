@@ -1,7 +1,23 @@
 [
     {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-27:\\layout\\fragment_myprofile.xml",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_myprofile.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-27:\\layout\\fragment_darbarema.xml",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_darbarema.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-27:\\layout\\fragment_khane.xml",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_khane.xml"
+    },
+    {
         "merged": "ir.ez4.helpiran.app-mergeDebugResources-27:/layout/activity_main.xml",
         "source": "ir.ez4.helpiran.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-27:\\layout\\fragment_contactus.xml",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_contactus.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-27:\\layout\\header_asli.xml",
@@ -10,5 +26,9 @@
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-27:\\layout\\activity_main.xml",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-27:\\layout\\fragment_porbazdid.xml",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-30:\\layout\\fragment_porbazdid.xml"
     }
 ]

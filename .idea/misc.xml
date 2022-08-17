@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable-v24/ic_myprofilefill.xml" value="0.2295" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.2295" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_calender.xml" value="0.2295" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_camera.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_contactus.xml" value="0.232" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_darbarema.xml" value="0.232" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_home.xml" value="0.232" />
@@ -10,6 +14,11 @@
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_logo_hepiran.xml" value="0.199" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_menu.xml" value="0.196" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_myprofile.xml" value="0.232" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_profilefill.xml" value="0.2295" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/selector_2.xml" value="0.2295" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/selector_drawables.xml" value="0.2295" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/selector_myprofile.xml" value="0.2295" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/selector_porbazdid.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_contactus.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_darbarema.xml" value="0.36666666666666664" />
@@ -17,6 +26,7 @@
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_myprofile.xml" value="0.365625" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_porbazdid.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/header_asli.xml" value="0.33" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/menu-v26/menu_navigation_bottom_asli.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_navigation_asli.xml" value="0.365625" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_navigation_bottom_asli.xml" value="0.36666666666666664" />
       </map>

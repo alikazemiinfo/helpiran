@@ -32,8 +32,8 @@
         
 
         <item name="colorAccent">#FFF</item>
-        <item name="colorSurface">#EFEFEF</item>
-        <item name="colorOnSurface">#757575</item>
+        <item name="colorSurface">@color/abie_dark</item>
+        <item name="colorOnSurface">#FFFFFF</item>
     </style>
     <style name="customizetoolbar" parent="Theme.MaterialComponents">
         <item name="fontFamily">@font/productsansbold</item>

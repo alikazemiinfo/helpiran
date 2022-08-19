@@ -1,8 +1,10 @@
-#Thu Aug 18 00:58:06 IRDT 2022
+#Fri Aug 19 02:40:54 IRDT 2022
+path.4=9/classes.dex
 path.3=7/classes.dex
 path.2=10/classes.dex
 path.1=0/classes.dex
 path.0=classes.dex
+base.4=C\:\\Users\\alido\\Desktop\\projectkotline\\helpiran\\helpiran\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
 base.3=C\:\\Users\\alido\\Desktop\\projectkotline\\helpiran\\helpiran\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 base.2=C\:\\Users\\alido\\Desktop\\projectkotline\\helpiran\\helpiran\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 base.1=C\:\\Users\\alido\\Desktop\\projectkotline\\helpiran\\helpiran\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
@@ -11,3 +13,4 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+renamed.4=classes5.dex

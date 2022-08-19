@@ -26,6 +26,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dd17112a3a1a99f5e9feb7369f5efc98/transformed/jetified-core-1.4.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8c5ed80f4c238061ad423d08a1cb2b08/transformed/jetified-core-ktx-1.8.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8412082c250957cc37d249411e040ade/transformed/material-1.6.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/233bfcc5e0e91c50a3bb4e18c756eea6/transformed/jetified-library-1.5.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/91b3e97bb9148aacda4e6b0062f90332/transformed/jetified-materialish-progress-1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7393b03cdae847f1410c8afc75ed3dc4/transformed/appcompat-1.4.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/e3a904410bf956344659aca644a1fae8/transformed/jetified-picasso-2.71828-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/88e29d4e1ad4cfd753033bb371b4d8e5/transformed/jetified-storage-1.4.0-api.jar</arg>
@@ -210,6 +212,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.github.bumptech.glide:gifdecoder:4.13.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.tracing:tracing:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: jp.wasabeef:glide-transformations:4.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.github.f0ris.sweetalert:library:1.5.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.pnikosis:materialish-progress:1.0@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="helpiran.app.main" />
 </module>

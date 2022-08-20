@@ -2,23 +2,16 @@
 
 
 <androidx.coordinatorlayout.widget.CoordinatorLayout
-    android:background="@color/white"
-    android:tag="TAG_FRAGMENT"
-    android:clickable="true"
     android:id="@+id/koli"
-    android:orientation="vertical"
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:focusable="true">
+    xmlns:tools="http://schemas.android.com/tools">
 
 <LinearLayout
     android:id="@+id/linear_probazdid_testi"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -41,11 +34,56 @@
         android:singleLine="true"
         android:paddingBottom="8dp"
         android:textColorHint="@color/gray" />
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+
+        android:id="@+id/ext_fab_portrafdar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/portarfdar"
+        android:text="@string/portarfdar"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/sabz"
+        app:icon="@drawable/ic_web"
+        app:iconTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+
+        android:id="@+id/ext2_fab_portrafdar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom|top"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="30dp"
+        android:contentDescription="@string/portarfdar"
+        android:text="اخبار جدید"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@color/sabz"
+        app:icon="@drawable/ic_baseline_chat_24"
+        app:iconTint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ext_fab_portrafdar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <androidx.recyclerview.widget.RecyclerView
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             android:background="@color/white"
@@ -59,22 +97,15 @@
 
     </androidx.core.widget.NestedScrollView>
 
+
+
+
 </LinearLayout>
 
 
-    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-        app:layout_anchor="@id/linear_probazdid_testi"
-        app:layout_anchorGravity="end|bottom"
-        android:id="@+id/ext_fab_portrafdar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="40dp"
-        app:backgroundTint="@color/sabz"
-        android:text="@string/portarfdar"
-        android:textColor="@android:color/white"
-        app:icon="@drawable/ic_web"
-        app:iconTint="@android:color/white" />
+
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 

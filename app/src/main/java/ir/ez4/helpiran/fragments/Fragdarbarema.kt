@@ -7,11 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.google.android.material.card.MaterialCardView
 import ir.ez4.helpiran.R
-import ir.ez4.helpiran.adaptors.porbazdidadaptor
-import ir.ez4.helpiran.data.itempost
 import ir.ez4.helpiran.databinding.FragmentDarbaremaBinding
-import ir.ez4.helpiran.databinding.FragmentKhaneBinding
-import ir.ez4.helpiran.databinding.FragmentMyprofileBinding
 
 class Fragdarbarema:Fragment() {
 

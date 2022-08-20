@@ -3,21 +3,20 @@ package ir.ez4.helpiran.adaptors
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import ir.ez4.helpiran.data.itempost
+import ir.ez4.helpiran.data.Itempost
 import ir.ez4.helpiran.databinding.ItemPorbazdidBinding
 import java.util.ArrayList
 
-class porbazdidadaptor(private val data:ArrayList<itempost>):RecyclerView.Adapter<porbazdidadaptor.Explorerholder> (){
+class porbazdidadaptor(private val data:ArrayList<Itempost>, private val itemevent: Itemevent):RecyclerView.Adapter<porbazdidadaptor.Explorerholder> (){
 
     lateinit var binding:ItemPorbazdidBinding
 
     inner class Explorerholder(itemView:View):RecyclerView.ViewHolder(itemView){
 
 
-        fun bindview(itempost: itempost){
+        fun bindview(itempost: Itempost){
 
             val glide=Glide.with(itemView.context).load(itempost.imgurl).into(binding.imgExplorerMain)
 
@@ -25,6 +24,10 @@ class porbazdidadaptor(private val data:ArrayList<itempost>):RecyclerView.Adapte
             binding.txtExplorSubtitle.text=itempost.txt_subtitle
             binding.txtExplorDetail.text=itempost.txt_describtion
 
+            itemView.setOnClickListener {
+
+                itemevent.onitemclicked(itempost)
+            }
         }
 
     }

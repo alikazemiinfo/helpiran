@@ -1,23 +1,22 @@
 package ir.ez4.helpiran.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.core.view.isVisible
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import ir.ez4.helpiran.R
-import ir.ez4.helpiran.adaptors.porbazdidadaptor
+import ir.ez4.helpiran.MainActivity2
+import ir.ez4.helpiran.adaptors.Itemevent
 import ir.ez4.helpiran.adaptors.trendadaptor
-import ir.ez4.helpiran.data.itempost
+import ir.ez4.helpiran.data.Itempost
 import ir.ez4.helpiran.databinding.*
 
-class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFragment() {
+class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFragment(),Itemevent {
 
     lateinit var binding: FragmentTrendBinding
 
@@ -36,8 +35,8 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
         super.onViewCreated(view, savedInstanceState)
 
 
-        val data = arrayListOf<itempost>(
-            itempost(
+        val data = arrayListOf<Itempost>(
+            Itempost(
                 "https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
                 "محسن چاوشی",
                 "خواننده موسیقی پاپپ\nبهترین خواننده کشور در سال 1401 \n(از سال 1370 الی 1401)",
@@ -50,7 +49,7 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
                 "260 هزار نفر"
             ),
 
-            itempost(
+            Itempost(
                 "https://s6.uupload.ir/files/t1_1637657384512_oy4o.jpg",
                 "حامد زمانی",
                 "خواننده موسیقی جدید\n خواننده کشور ایران \n(از سال 1380 الی 1401)",
@@ -61,7 +60,7 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
                 "260  نفر"
             ),
 
-            itempost(
+            Itempost(
                 "https://s6.uupload.ir/files/zandvaki_qha.jpg",
                 "علی زند وکیلی",
                 "خواننده موسیقی سنتی\nبهترین خواننده کشور در سال 1401 \n(از سال 1370 الی 1401)",
@@ -70,7 +69,7 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
                 true,
                 "100 نفر"
             ),
-            itempost(
+            Itempost(
                 "https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
                 "محسن چاوشی",
                 "خواننده موسیقی پاپپ\nبهترین خواننده کشور در سال 1401 \n(از سال 1370 الی 1401)",
@@ -82,7 +81,7 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
                 true,
                 "260 هزار نفر"
             ),
-            itempost(
+            Itempost(
                 "https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
                 "محسن چاوشی",
                 "خواننده موسیقی پاپپ\nبهترین خواننده کشور در سال 1401 \n(از سال 1370 الی 1401)",
@@ -94,7 +93,7 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
                 true,
                 "260 هزار نفر"
             ),
-            itempost(
+            Itempost(
                 "https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
                 "محسن چاوشی",
                 "خواننده موسیقی پاپپ\nبهترین خواننده کشور در سال 1401 \n(از سال 1370 الی 1401)",
@@ -106,7 +105,7 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
                 true,
                 "260 هزار نفر"
             ),
-            itempost(
+            Itempost(
                 "https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
                 "محسن چاوشی",
                 "خواننده موسیقی پاپپ\nبهترین خواننده کشور در سال 1401 \n(از سال 1370 الی 1401)",
@@ -118,7 +117,7 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
                 true,
                 "260 هزار نفر"
             ),
-            itempost(
+            Itempost(
                 "https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
                 "محسن چاوشی",
                 "خواننده موسیقی پاپپ\nبهترین خواننده کشور در سال 1401 \n(از سال 1370 الی 1401)",
@@ -133,7 +132,7 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
 
 
             )
-        val myadapter = trendadaptor(data)
+        val myadapter = trendadaptor(data,this)
 
 
         binding.rcycleTrend.layoutManager =
@@ -163,6 +162,13 @@ class Fragtrend(private val mainDialogeven: Fragporbazdid) : BottomSheetDialogFr
 //
 //        }
 
+    }
+
+    override fun onitemclicked(itempost: Itempost) {
+
+        val intent= Intent(activity, MainActivity2::class.java)
+        intent.putExtra(SENDING_DATA_WITH_INTENTTOMAINACTIVITY_INORDERTOSHOWOURCONTENT,itempost)
+        startActivity(intent)
     }
 
 }

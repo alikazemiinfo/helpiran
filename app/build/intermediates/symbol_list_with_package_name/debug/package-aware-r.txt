@@ -1250,7 +1250,9 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color black_light
 color blacklight
+color blue
 color blue_btn_bg_color
 color blue_btn_bg_pressed_color
 color bright_foreground_disabled_material_dark
@@ -1320,7 +1322,9 @@ color gold
 color gray
 color gray_btn_bg_color
 color gray_btn_bg_pressed_color
+color gray_light
 color graymeshki
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -1817,6 +1821,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2576,6 +2581,7 @@ drawable ic_calender
 drawable ic_camera
 drawable ic_canceled
 drawable ic_chart
+drawable ic_clickweb
 drawable ic_clock_black_24dp
 drawable ic_contactus
 drawable ic_contactusfill
@@ -2618,7 +2624,9 @@ drawable ic_setting
 drawable ic_waitingtopay
 drawable ic_wallet
 drawable ic_web
+drawable ic_wikipedia_icon
 drawable ic_write
+drawable jamiroquai
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2767,8 +2775,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appBarMain
 id appbar
-id appbar_2
 id appbar_main
 id arc
 id asConfigured
@@ -2822,6 +2830,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id collapsingMain
 id collapsing_toolbar_mainactivity2_test
 id compress
 id confirm_button
@@ -2834,7 +2843,6 @@ id contiguous
 id continuousVelocity
 id coordinator
 id coordinator_layout
-id cordinatorasli
 id cos
 id counterclockwise
 id currentState
@@ -2893,8 +2901,9 @@ id error_x
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id extFloatingActionButton
+id ext2_fab_portrafdar
 id ext_fab_portrafdar
+id fab_detail_open_man
 id fab_full_btn
 id fade
 id fill
@@ -2942,8 +2951,10 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imgDetail
 id img_card1
 id img_card_trend
+id img_explore_main
 id img_explorer_main
 id img_profili_aks
 id immediateStop
@@ -3050,7 +3061,6 @@ id navigation_bar_item_small_label_view
 id navigation_header_container
 id navigationvieew_main
 id nemidonam
-id nested_changes2
 id nested_scroll_view
 id neutral_button
 id never
@@ -3093,6 +3103,7 @@ id ratio
 id rcycle_porbazdid
 id rcycle_trend
 id rectangles
+id recycler_explore
 id restart
 id reverse
 id reverseSawtooth
@@ -3211,6 +3222,7 @@ id titleDividerNoCustom
 id title_template
 id title_text
 id toggle
+id toolbarAsli
 id toolbar_asli2
 id toolbar_main_zirmajmoe
 id toolbar_title
@@ -3226,10 +3238,16 @@ id transition_scene_layoutid_cache
 id transition_transform
 id trendiano
 id triangle
+id txt_detail_subtitle
+id txt_detail_text
+id txt_detail_title
 id txt_emtiaz_trend
 id txt_explor_detail
 id txt_explor_subtitle
 id txt_explor_title
+id txt_explore_detail
+id txt_explore_subtitle
+id txt_explore_title
 id txt_main_asli
 id txt_main_title2
 id txt_num_trend
@@ -3378,14 +3396,20 @@ layout design_text_input_start_icon
 layout frag_activitymain2_test
 layout fragment_contactus
 layout fragment_darbarema
+layout fragment_explore
 layout fragment_khane
 layout fragment_myprofile
 layout fragment_porbazdid
+layout fragment_profile
+layout fragment_test
 layout fragment_trend
 layout header_asli
+layout header_main
 layout item_card
+layout item_explore
 layout item_main2_test
 layout item_porbazdid
+layout item_test
 layout item_trend
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

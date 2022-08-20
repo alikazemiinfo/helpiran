@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="ir.ez4.helpiran">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,15 +17,29 @@
         android:theme="@style/Theme.Helpiran"
         tools:replace="android:icon"
         tools:targetApi="31">
+
+<!--        مربوط به لایه تست هستش و هیچوقت نباید روی لایه اصلی فراخوان بشود-->
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"/>
+
+
+<!--        لایه اصلی که استفاده شده است-->
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+
+
     </application>
 
 </manifest>

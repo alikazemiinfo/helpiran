@@ -1,33 +1,69 @@
 package ir.ez4.helpiran.fragments
 
+import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.RequiresApi
+import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
 import ir.ez4.helpiran.R
 import ir.ez4.helpiran.adaptors.porbazdidadaptor
 import ir.ez4.helpiran.data.itempost
 import ir.ez4.helpiran.databinding.FragmentPorbazdidBinding
 
+
 class Fragporbazdid:Fragment() {
 
-    lateinit var binding:FragmentPorbazdidBinding
+    lateinit var binding: FragmentPorbazdidBinding
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         binding= FragmentPorbazdidBinding.inflate(layoutInflater,container,false)
+
         return binding.root
+
+
     }
 
 
+    @RequiresApi(Build.VERSION_CODES.M)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
 
 
+        val extendedFloatingActionButton =binding.extFabPortrafdar
+
+        val nestedScrollView = binding.rcyclePorbazdid
+
+        extendedFloatingActionButton.isNestedScrollingEnabled=false
+
+        view.findViewById<RecyclerView>(R.id.rcycle_porbazdid).setOnScrollChangeListener { v, scrollX, scrollY, oldScrollX, oldScrollY ->
+            if (scrollY > oldScrollY + 12 && extendedFloatingActionButton.isExtended) {
+                extendedFloatingActionButton.shrink()
+
+
+            }
+
+            // the delay of the extension of the FAB is set for 12 items
+            if (scrollY < oldScrollY - 12 && !extendedFloatingActionButton.isExtended) {
+                extendedFloatingActionButton.extend()
+
+            }
+
+            // if the nestedScrollView is at the first item of the list then the
+            // extended floating action should be in extended state
+            if (scrollY == 0) {
+                extendedFloatingActionButton.extend()
+
+            }
+
+        }
 
 
         val data= arrayListOf<itempost>(
@@ -100,14 +136,16 @@ class Fragporbazdid:Fragment() {
 
         val fraginja=Fragporbazdid()
 
-        binding.btnTrend.setOnClickListener {
+        binding.extFabPortrafdar.setOnClickListener {
 
 
 
-                val asli = Fragtrend(this)
-                asli.show(requireActivity().supportFragmentManager, null)
+            val asli = Fragtrend(this)
+            asli.show(requireActivity().supportFragmentManager, null)
 
-    }
+        }
+
+
 
 
 }}

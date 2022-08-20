@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<androidx.constraintlayout.widget.ConstraintLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     android:background="@color/white"
     android:tag="TAG_FRAGMENT"
     android:clickable="true"
@@ -15,6 +15,7 @@
     android:focusable="true">
 
 <LinearLayout
+    android:id="@+id/linear_probazdid_testi"
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +31,6 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="25dp"
         android:layout_marginEnd="14dp"
-        android:layout_marginBottom="12dp"
         android:background="@drawable/shape_radiusaks"
         android:drawableStart="@drawable/ic_search"
         android:drawableTint="@color/abie_dark"
@@ -41,27 +41,40 @@
         android:singleLine="true"
         android:paddingBottom="8dp"
         android:textColorHint="@color/gray" />
-    <com.google.android.material.button.MaterialButton
-        android:background="@drawable/shape_radiusaks"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/btn_trend"
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:background="@color/white"
+            android:id="@+id/rcycle_porbazdid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:paddingBottom="10dp"
+
+            tools:listitem="@layout/item_porbazdid"/>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        app:layout_anchor="@id/linear_probazdid_testi"
+        app:layout_anchorGravity="end|bottom"
+        android:id="@+id/ext_fab_portrafdar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="مباحث پرطرفدار"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        app:backgroundTint="@color/sabz"
+        android:text="@string/portarfdar"
+        android:textColor="@android:color/white"
+        app:icon="@drawable/ic_web"
+        app:iconTint="@android:color/white" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:background="@color/white"
-        android:id="@+id/rcycle_porbazdid"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="32dp"
-        android:paddingBottom="18dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_trend" />
-</LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+

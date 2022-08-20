@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "ir.ez4.helpiran.app-mergeDebugResources-28:/values-v16/values-v16.xml",
+            "outputFile": "ir.ez4.helpiran.app-mergeDebugResources-31:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\e6892a01929603d0540f3f298499bbd0\\transformed\\appcompat-1.4.2\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\3521fbfde91dfca4c39799f4d57ece5d\\transformed\\appcompat-1.5.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

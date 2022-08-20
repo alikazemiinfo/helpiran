@@ -2,6 +2,7 @@ package ir.ez4.helpiran
 
 
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -111,7 +112,11 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+
     }
+
+
+
     //این قسمت برایدستور جا به جایی بین صفحات هستش
     fun fragreplace(fragrep:Fragment){
         val transact=supportFragmentManager.beginTransaction()

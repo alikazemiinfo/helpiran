@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "ir.ez4.helpiran.app-mergeDebugResources-28:/values-night-v8/values-night-v8.xml",
+            "outputFile": "ir.ez4.helpiran.app-mergeDebugResources-31:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\alido\\Desktop\\projectkotline\\helpiran\\helpiran\\app\\src\\main\\res\\values-night\\ids.xml",
                     "from": {
-                        "startLines": "3,2",
+                        "startLines": "4,3",
                         "startColumns": "4,4",
-                        "startOffsets": "94,57",
+                        "startOffsets": "127,90",
                         "endColumns": "38,35",
-                        "endOffsets": "128,88"
+                        "endOffsets": "161,121"
                     },
                     "to": {
                         "startLines": "2,3",
@@ -18,6 +18,23 @@
                         "startOffsets": "100,138",
                         "endColumns": "37,34",
                         "endOffsets": "133,168"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\3521fbfde91dfca4c39799f4d57ece5d\\transformed\\appcompat-1.5.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9,10,52",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "173,243,327,411,507,609,711,4278",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "238,322,406,502,604,706,800,4362"
                     }
                 },
                 {
@@ -37,23 +54,6 @@
                         "endLines": "27",
                         "endColumns": "12",
                         "endOffsets": "1619"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\e6892a01929603d0540f3f298499bbd0\\transformed\\appcompat-1.4.2\\res\\values-night-v8\\values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9,10,52",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "173,243,327,411,507,609,711,4278",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "238,322,406,502,604,706,800,4362"
                     }
                 },
                 {

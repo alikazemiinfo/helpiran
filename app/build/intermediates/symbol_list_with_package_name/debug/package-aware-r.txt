@@ -2012,6 +2012,7 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -2433,6 +2434,8 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen padding_extra_large
+dimen padding_medium
 dimen progress_circle_radius
 dimen test_dimen
 dimen test_mtrl_calendar_day_cornerSize
@@ -2447,6 +2450,7 @@ dimen test_navigation_bar_item_min_width
 dimen test_navigation_bar_label_padding
 dimen test_navigation_bar_shadow_height
 dimen test_navigation_bar_text_size
+dimen text_medium
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -2534,6 +2538,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable alikazemi
 drawable avd_hide_password
 drawable avd_show_password
 drawable blue_button_background
@@ -2555,6 +2560,7 @@ drawable dialog_background
 drawable dialog_background_dark
 drawable error_center_x
 drawable error_circle
+drawable fab_btn_corner
 drawable gray_button_background
 drawable green_button_background
 drawable ic_alaghe
@@ -2611,6 +2617,7 @@ drawable ic_search
 drawable ic_setting
 drawable ic_waitingtopay
 drawable ic_wallet
+drawable ic_web
 drawable ic_write
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -2760,6 +2767,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appbar
+id appbar_2
 id appbar_main
 id arc
 id asConfigured
@@ -2780,7 +2789,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btn_trend
 id btom_navigation_main
 id buttonPanel
 id cache_measures
@@ -2797,6 +2805,8 @@ id center_vertical
 id chain
 id chain2
 id chains
+id chat_fab
+id chat_fab_text
 id checkbox
 id checked
 id chip
@@ -2812,6 +2822,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id collapsing_toolbar_mainactivity2_test
 id compress
 id confirm_button
 id constraint
@@ -2822,6 +2833,8 @@ id content_text
 id contiguous
 id continuousVelocity
 id coordinator
+id coordinator_layout
+id cordinatorasli
 id cos
 id counterclockwise
 id currentState
@@ -2880,6 +2893,9 @@ id error_x
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id extFloatingActionButton
+id ext_fab_portrafdar
+id fab_full_btn
 id fade
 id fill
 id fill_horizontal
@@ -2929,6 +2945,7 @@ id imageView4
 id img_card1
 id img_card_trend
 id img_explorer_main
+id img_profili_aks
 id immediateStop
 id included
 id info
@@ -2948,10 +2965,12 @@ id line1
 id line3
 id linear
 id linearLayout
+id linear_probazdid_testi
 id listMode
 id list_item
 id loading
 id lottie_layer_name
+id main_toolbar
 id mask_left
 id mask_right
 id masked
@@ -3021,6 +3040,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id my_recyclerview
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3030,6 +3050,8 @@ id navigation_bar_item_small_label_view
 id navigation_header_container
 id navigationvieew_main
 id nemidonam
+id nested_changes2
+id nested_scroll_view
 id neutral_button
 id never
 id neverCompleteToEnd
@@ -3189,7 +3211,9 @@ id titleDividerNoCustom
 id title_template
 id title_text
 id toggle
+id toolbar_asli2
 id toolbar_main_zirmajmoe
+id toolbar_title
 id top
 id topPanel
 id touch_outside
@@ -3222,6 +3246,7 @@ id view3
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
+id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
@@ -3332,6 +3357,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_main2
 layout alert_dialog
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3349,6 +3375,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout frag_activitymain2_test
 layout fragment_contactus
 layout fragment_darbarema
 layout fragment_khane
@@ -3357,6 +3384,7 @@ layout fragment_porbazdid
 layout fragment_trend
 layout header_asli
 layout item_card
+layout item_main2_test
 layout item_porbazdid
 layout item_trend
 layout m3_alert_dialog
@@ -3428,6 +3456,7 @@ layout test_toolbar
 layout test_toolbar_custom_background
 layout test_toolbar_elevation
 layout test_toolbar_surface
+layout testingfab
 layout text_view_with_line_height_from_appearance
 layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
@@ -3567,6 +3596,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string payamha
+string portarfdar
 string search_menu_title
 string sefareshhayman
 string setting

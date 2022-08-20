@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "ir.ez4.helpiran.app-mergeDebugResources-28:/values-v23/values-v23.xml",
+            "outputFile": "ir.ez4.helpiran.app-mergeDebugResources-31:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\56cd8ee0603d9bc535ba35d11a6a9017\\transformed\\material-1.6.1\\res\\values-v23\\values-v23.xml",
@@ -23,25 +23,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\e6892a01929603d0540f3f298499bbd0\\transformed\\appcompat-1.4.2\\res\\values-v23\\values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
-                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
-                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
-                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
-                    }
-                },
-                {
                     "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\870ec8632b7a88bef0c29fcab4b3605a\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
@@ -58,6 +39,17 @@
                         "endLines": "52",
                         "endColumns": "12",
                         "endOffsets": "3377"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\3521fbfde91dfca4c39799f4d57ece5d\\transformed\\appcompat-1.5.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
                     }
                 }
             ]

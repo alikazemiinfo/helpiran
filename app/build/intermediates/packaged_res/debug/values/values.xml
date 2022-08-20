@@ -17,11 +17,16 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_extra_large">20dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="text_medium">20sp</dimen>
     <string name="app_name">helpiran</string>
     <string name="closedrawer">closemenu</string>
     <string name="nameofcontent">جناب آقای علی کاظمی</string>
     <string name="opendrawer">openmenu</string>
     <string name="payamha">payamha</string>
+    <string name="portarfdar">اخبار پربازدید</string>
     <string name="sefareshhayman">سفارش های من</string>
     <string name="setting">setting</string>
     <string name="view">200نفر ویدیو را تماشا کردند</string>

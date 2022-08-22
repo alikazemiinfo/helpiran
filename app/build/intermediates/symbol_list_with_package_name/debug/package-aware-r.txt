@@ -150,10 +150,7 @@ attr badgeStyle
 attr badgeTextColor
 attr badgeWidePadding
 attr badgeWithTextRadius
-attr barColor
 attr barLength
-attr barSpinCycleTime
-attr barWidth
 attr barrierAllowsGoneWidgets
 attr barrierDirection
 attr barrierMargin
@@ -383,6 +380,8 @@ attr customDimension
 attr customFloatValue
 attr customIntegerValue
 attr customNavigationLayout
+attr customPivotX
+attr customPivotY
 attr customPixelDimension
 attr customReference
 attr customStringValue
@@ -483,7 +482,6 @@ attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
 attr fastScrollVerticalThumbDrawable
 attr fastScrollVerticalTrackDrawable
-attr fillRadius
 attr firstBaselineToTopHeight
 attr floatingActionButtonLargePrimaryStyle
 attr floatingActionButtonLargeSecondaryStyle
@@ -741,6 +739,16 @@ attr marginHorizontal
 attr marginLeftSystemWindowInsets
 attr marginRightSystemWindowInsets
 attr marginTopSystemWindowInsets
+attr matProg_barColor
+attr matProg_barSpinCycleTime
+attr matProg_barWidth
+attr matProg_circleRadius
+attr matProg_fillRadius
+attr matProg_linearProgress
+attr matProg_progressIndeterminate
+attr matProg_rimColor
+attr matProg_rimWidth
+attr matProg_spinSpeed
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogButtonSpacerVisibility
 attr materialAlertDialogTheme
@@ -876,8 +884,6 @@ attr percentX
 attr percentY
 attr perpendicularPath_percent
 attr pivotAnchor
-attr pivotX
-attr pivotY
 attr placeholderText
 attr placeholderTextAppearance
 attr placeholderTextColor
@@ -894,7 +900,6 @@ attr preserveIconSpacing
 attr pressedTranslationZ
 attr progressBarPadding
 attr progressBarStyle
-attr progressIndeterminate
 attr quantizeMotionInterpolator
 attr quantizeMotionPhase
 attr quantizeMotionSteps
@@ -916,8 +921,6 @@ attr region_heightMoreThan
 attr region_widthLessThan
 attr region_widthMoreThan
 attr reverseLayout
-attr rimColor
-attr rimWidth
 attr rippleColor
 attr rollType
 attr rotationCenterId
@@ -964,7 +967,6 @@ attr snackbarStyle
 attr snackbarTextViewStyle
 attr spanCount
 attr spinBars
-attr spinSpeed
 attr spinnerDropDownItemStyle
 attr spinnerStyle
 attr splitTrack
@@ -2595,7 +2597,6 @@ drawable ic_homefill
 drawable ic_homeoutfill2
 drawable ic_ir_porbazdid
 drawable ic_keyboard_black_24dp
-drawable ic_launcher
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_left
@@ -2671,6 +2672,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable red_button_background
+drawable rounded_corner
 drawable selector_contactus
 drawable selector_darbarema
 drawable selector_khane
@@ -2799,6 +2801,7 @@ id bounceEnd
 id bounceStart
 id btom_navigation_main
 id buttonPanel
+id buttons_container
 id cache_measures
 id callMeasure
 id cancel_button
@@ -2831,7 +2834,6 @@ id clockwise
 id closest
 id collapseActionView
 id collapsingMain
-id collapsing_toolbar_mainactivity2_test
 id compress
 id confirm_button
 id constraint
@@ -2863,6 +2865,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id dialogDismiss_button
 id dialog_button
 id dimensions
 id direct
@@ -2956,7 +2959,7 @@ id img_card1
 id img_card_trend
 id img_explore_main
 id img_explorer_main
-id img_profili_aks
+id img_photographer
 id immediateStop
 id included
 id info
@@ -3133,6 +3136,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id searchbar_youtube_alikazemi
 id sefarsha
 id select_dialog_listview
 id selected
@@ -3175,6 +3179,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id subtitle_dialog_subtitle
 id success_frame
 id success_tick
 id supportScrollUp
@@ -3219,11 +3224,11 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id title_dialog_title
 id title_template
 id title_text
 id toggle
 id toolbarAsli
-id toolbar_asli2
 id toolbar_main_zirmajmoe
 id toolbar_title
 id top
@@ -3378,6 +3383,7 @@ layout activity_main
 layout activity_main2
 layout alert_dialog
 layout custom_dialog
+layout customview_layoutalertdialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -3394,6 +3400,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout frag_activitymain2_test
+layout frag_newfrag_opener
 layout fragment_contactus
 layout fragment_darbarema
 layout fragment_explore
@@ -3488,6 +3495,7 @@ layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu menu_navigation_asli
 menu menu_navigation_bottom_asli
+menu searchbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3530,6 +3538,7 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string closedrawer
+string default_progressbar
 string dialog_cancel
 string dialog_default_title
 string dialog_ok
@@ -3898,6 +3907,7 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style CustomAlertDialog
 style EmptyTheme
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Body_Text
@@ -4796,13 +4806,13 @@ styleable OnClick clickAction targetId
 styleable OnSwipe autoCompleteMode dragDirection dragScale dragThreshold limitBoundsTo maxAcceleration maxVelocity moveWhenScrollAtTop nestedScrollFlags onTouchUp rotationCenterId springBoundary springDamping springMass springStiffness springStopThreshold touchAnchorId touchAnchorSide touchRegionId
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
-styleable ProgressWheel barColor barSpinCycleTime barWidth circleRadius fillRadius progressIndeterminate rimColor rimWidth spinSpeed
+styleable ProgressWheel matProg_barColor matProg_barSpinCycleTime matProg_barWidth matProg_circleRadius matProg_fillRadius matProg_linearProgress matProg_progressIndeterminate matProg_rimColor matProg_rimWidth matProg_spinSpeed
 styleable PropertySet android_visibility android_alpha layout_constraintTag motionProgress visibilityMode
 styleable RadialViewGroup materialCircleRadius
 styleable RangeSlider minSeparation values
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
-styleable Rotate3dAnimation fromDeg pivotX pivotY rollType toDeg
+styleable Rotate3dAnimation customPivotX customPivotY fromDeg rollType toDeg
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon

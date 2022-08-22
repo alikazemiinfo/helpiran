@@ -1,5 +1,6 @@
 package ir.ez4.helpiran.adaptors
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -28,6 +29,8 @@ class porbazdidadaptor(private val data:ArrayList<Itempost>, private val itemeve
 
                 itemevent.onitemclicked(itempost)
             }
+
+
         }
 
     }
@@ -38,6 +41,19 @@ class porbazdidadaptor(private val data:ArrayList<Itempost>, private val itemeve
         return Explorerholder(binding.root)
     }
 
+
+    fun filterkardandata(listjadid:ArrayList<Itempost>){
+
+
+
+        val clonekardan=data.clone()
+        data.clone()
+        data.clear()
+        data.addAll(listjadid)
+        notifyDataSetChanged()
+
+
+    }
     override fun onBindViewHolder(holder: Explorerholder, position: Int) {
 
         holder.bindview(data[position])
@@ -46,5 +62,8 @@ class porbazdidadaptor(private val data:ArrayList<Itempost>, private val itemeve
     override fun getItemCount(): Int {
 
         return data.size
+    }
+    override fun getItemViewType(position: Int): Int {
+        return position
     }
 }

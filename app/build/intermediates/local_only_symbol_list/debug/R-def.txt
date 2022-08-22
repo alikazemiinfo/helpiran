@@ -80,6 +80,7 @@ drawable ic_write
 drawable jamiroquai
 drawable menu_colortext
 drawable mohsenchavoshi
+drawable rounded_corner
 drawable selector_contactus
 drawable selector_darbarema
 drawable selector_khane
@@ -105,8 +106,8 @@ id card_porbazdid
 id chat_fab
 id chat_fab_text
 id collapsingMain
-id collapsing_toolbar_mainactivity2_test
 id coordinator_layout
+id dialogDismiss_button
 id drawer_main
 id edt_search
 id ext2_fab_portrafdar
@@ -124,7 +125,7 @@ id img_card1
 id img_card_trend
 id img_explore_main
 id img_explorer_main
-id img_profili_aks
+id img_photographer
 id koli
 id linearLayout
 id linear_probazdid_testi
@@ -146,13 +147,15 @@ id nested_scroll_view
 id rcycle_porbazdid
 id rcycle_trend
 id recycler_explore
+id searchbar_youtube_alikazemi
 id sefarsha
+id subtitle_dialog_subtitle
 id textView
 id textView2
 id textView3
 id textView4
+id title_dialog_title
 id toolbarAsli
-id toolbar_asli2
 id toolbar_main_zirmajmoe
 id toolbar_title
 id trendiano
@@ -175,7 +178,9 @@ id view
 id view3
 layout activity_main
 layout activity_main2
+layout customview_layoutalertdialog
 layout frag_activitymain2_test
+layout frag_newfrag_opener
 layout fragment_contactus
 layout fragment_darbarema
 layout fragment_explore
@@ -196,6 +201,7 @@ layout item_trend
 layout testingfab
 menu menu_navigation_asli
 menu menu_navigation_bottom_asli
+menu searchbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
@@ -207,6 +213,7 @@ string portarfdar
 string sefareshhayman
 string setting
 string view
+style CustomAlertDialog
 style Theme.Helpiran
 style customizetoolbar
 xml backup_rules

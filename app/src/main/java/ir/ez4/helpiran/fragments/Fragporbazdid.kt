@@ -1,16 +1,17 @@
 package ir.ez4.helpiran.fragments
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.Toast
+import android.view.*
+import android.widget.*
 import androidx.annotation.RequiresApi
+import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import cn.pedant.SweetAlert.SweetAlertDialog
 import ir.ez4.helpiran.MainActivity2
 import ir.ez4.helpiran.R
 import ir.ez4.helpiran.adaptors.Itemevent
@@ -24,10 +25,16 @@ class Fragporbazdid:Fragment(),Itemevent {
 
     lateinit var binding: FragmentPorbazdidBinding
 
+
+    private lateinit var toolbar: Toolbar
+    lateinit var adapter: ArrayAdapter<*>
+    private lateinit var listView: ListView
+    private lateinit var emptyView: TextView
+
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         binding= FragmentPorbazdidBinding.inflate(layoutInflater,container,false)
-
+        setHasOptionsMenu(true);
         return binding.root
 
 
@@ -40,10 +47,12 @@ class Fragporbazdid:Fragment(),Itemevent {
 
 
 
+
         val extendedFloatingActionButton =binding.extFabPortrafdar
         val extendedFloatingActionButton2=binding.ext2FabPortrafdar
 
         val nestedScrollView = binding.rcyclePorbazdid
+
 
         extendedFloatingActionButton.isNestedScrollingEnabled=false
         extendedFloatingActionButton2.isNestedScrollingEnabled=false
@@ -132,6 +141,7 @@ class Fragporbazdid:Fragment(),Itemevent {
         val myadapter= porbazdidadaptor(data,this)
 
 
+
         binding.rcyclePorbazdid.layoutManager=LinearLayoutManager(context,RecyclerView.VERTICAL,false)
         binding.rcyclePorbazdid.adapter=myadapter
 
@@ -151,15 +161,166 @@ class Fragporbazdid:Fragment(),Itemevent {
         }
         binding.ext2FabPortrafdar.setOnClickListener {
 
+            val dialogsweet= SweetAlertDialog(context,SweetAlertDialog.ERROR_TYPE)
+            val txtfab=binding.ext2FabPortrafdar.text
 
-            Toast.makeText(context, "به زودی", Toast.LENGTH_SHORT).show()
+
+            dialogsweet.titleText="به روز رسانی سرویس"
+            dialogsweet.contentText=" متاسفانه در حال حاضر دسترسی به سرویس $txtfab وجود ندارد "
+
+
+
+            dialogsweet.show()
+
+
+            Toast.makeText(context, "عدم دسترسی به سرویس $txtfab ", Toast.LENGTH_SHORT).show()
 
         }
 
+        binding.edtSearch.addTextChangedListener {
+
+            data.addAll(data)
+            if (it!!.isNotEmpty()){
+//                val clonelist=data.clone() as ArrayList<Itempost>
+//                val filter=clonelist.filter {
+//                 data->
+//                    data.txt_title.contains(it)||data.txt_describtion.contains(it)||data.txt_subtitle.contains(it)
+//                }
+//                myadapter.filterkardandata(ArrayList(filter))
+
+                val pDialog = SweetAlertDialog(context, SweetAlertDialog.PROGRESS_TYPE)
+                pDialog.progressHelper.barColor = Color.parseColor("#ff001e")
+                pDialog.titleText = "Loading"
+                pDialog.setCancelable(true)
 
 
+
+                    pDialog.titleText="به روز رسانی سرویس"
+                    pDialog.contentText="عدم دسترسی به سرویس \nجست و جو"
+                    pDialog.cancelText="تلاش مجدد"
+                pDialog.confirmButtonBackgroundColor = R.color.red
+                pDialog.show()
+                binding.edtSearch.text=null
+                    pDialog.setCancelClickListener {
+
+                        pDialog.dismissWithAnimation()
+                        val dialog2=SweetAlertDialog(context,SweetAlertDialog.ERROR_TYPE)
+                        dialog2.titleText="از دست خارج شدن سرویس"
+                        dialog2.setCancelable(true)
+                        dialog2.contentText="متاسفانه این سرویس در حال حاضر وجود ندارد"
+                        dialog2.confirmText="متوجه شدم"
+                        dialog2.show()
+                    }
+                }
+
+
+
+
+
+
+
+            else if(it.isEmpty()){
+                //show all daata
+
+//                myadapter.filterkardandata(data.clone() as ArrayList<Itempost>)
+//
+//                Log.v("test","salamomad")
+
+            }
+        }
 
 }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        inflater.inflate(R.menu.searchbar,menu)
+
+        val searchitem=menu.findItem(R.id.searchbar_youtube_alikazemi);
+
+
+        if (searchitem !=null){
+
+            val displaylist= arrayListOf<Itempost>(
+                Itempost("https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
+                    "محسن چاوشی","خواننده پاپ",
+                    "محسن چاوشی پس از دریافت فوق دیپلم حسابداری و اتمام دوره سربازی، فعالیت حرفه\u200Cای خود را در زمینهٔ موسیقی در سال ۱۳۸۲ با آلبوم نفرین آغاز کرد و پس از اخذ مجوز در سال ۱۳۸۷ آلبوم یه شاخه نیلوفر را منتشر کرد. از وی تاکنون بیش از ۲۰۰ قطعه موسیقی شنیده شده\u200Cاست، که شامل ۱۱ آلبوم و نیز چندین تک\u200Cآهنگ است.[۱۰]\n" +
+                            "\n" +
+                            "وی خواننده و آهنگساز ترانه\u200Cهای فیلم سینمایی سنتوری ساختهٔ داریوش مهرجویی بود. چاوشی همچنین یک قطعه برای تیتراژ پایانی فیلم سینمایی لامپ ۱۰۰ به کارگردانی سعید آقاخانی خواند.\n" +
+                            "\n" +
+                            "چاوشی خواننده ترانه\u200Cهای سریال شبکه خانگی شهرزاد ساختهٔ حسن فتحی می\u200Cباشد که این ترانه\u200Cها خصوصاً تک\u200Cآهنگ کجایی نقش بسزایی در محبوبیت او داشت.[۱۱][۱۲]",false,""),
+
+                Itempost("https://s6.uupload.ir/files/t1_1637657384512_oy4o.jpg",
+                    "حامد زمانی","خواننده جدید",
+                    "در ۱ خرداد ۱۳۹۳، قرار بود حامد زمانی در افتتاحیه هفته فرهنگ رضوی استان کرمان اجرای کنسرت داشته باشد که به علت وقوع تصادف به این همایش نرسید. بعداً اعلام شد زمانی در سلامتی و بهبود کامل از لحاظ جسمی به سر می\u200Cبرد.[۱۱]\n" +
+                            "در ۱۲ مرداد ۱۳۹۶ از اجرای کنسرت حامد زمانی در جشن میلاد امام رضا در مشهد ممانعت به عمل آمد.[۱۲][۱۳] پس از آن، سعید سرابی مدیر کل وزارت فرهنگ و ارشاد اسلامی در استان خراسان رضوی اعلام کرد لغو اجرای زنده زمانی هیچ ارتباطی به اداره فرهنگ و ارشاد اسلامی ندارد و هیچ درخواست مجوزی برای اجرای کنسرت این خواننده در ایام میلاد امام رضا ارائه نشد. همچنین سعید سرابی ادعا کرد که ظاهراً مجری برنامه اجازه اجرا را به حامد زمانی نداد.[۱۴] در این\u200Cباره حامد زمانی نیز گفت:\n" +
+                            "این اتفاق با وجود همه هماهنگی\u200Cها و تلاش شبانه\u200Cروزی تیم ما برای اجرای این برنامه درخور شأن مردم مشهد و امام رضا اتفاق افتاده\u200Cاست. پس از این تصمیم و ابلاغ آن به ما، بدون عذرخواهی و هیچ توضیحی، راهی تهران شدیم و متأسفانه این رویه در چنین روزی بسیار ناراحت\u200Cکننده بود. ابتدا به\u200Cدلیل محدودیت حضور ساز روی صحنه، طبق قرار اولیه قرار بود با سه کیبورد و لپ\u200Cتاپ روی صحنه برویم. ساعاتی پیش از اجرا از ما خواسته شد فقط با یک کیبورد روی صحنه برویم؛ اما با توجه به تمرین\u200Cها و تنظیم آثار، شرایط جوری بود که اجرا برای ما با یک کیبورد غیرممکن بود. حتی اعضای گروه من به احترام نام امام رضا حاضر بودند، در اتاقک\u200Cهایی که کسی دید نداشت، ساز بزنند تا اجرا برگزار شود، ولی متأسفانه موافقت نشد و همان\u200Cجا بود که من احساس کردم، شیطنت\u200Cهایی برای اجرا نشدن این برنامه وجود دارد. من هیچ لغو کنسرتی را تأیید نمی\u200Cکنم، مخصوصاً موسیقی\u200Cهایی با فرم و محتوای فاخر. ما برای حفظ شأن و حرمت مکانی و زمانی برنامه، یک هفته تمرین کردیم تا بتوانیم با تجهیزات دیجیتال و چند کیبورد، بدون سازهای دیگر گروه\u200Cمان اجرا داشته باشیم، ولی این رفتارها فقط نام مشهد را در کشور خراب می\u200Cکند و بهانه به\u200Cدست معاندان ضدانقلاب خارج از کشور می\u200Cدهد",false,""),
+
+                Itempost("https://s6.uupload.ir/files/zandvaki_qha.jpg",
+                    "علی زند وکیلی","خواننده سنتی",
+                    "علی زند وکیلی فعالیت هنری خود را از هفت سالگی با نواختن تنبک و آواز آغاز کرد و در سال ۱۳۷۷ به هنرستان موسیقی شیراز وارد شد و نواختن سنتور و پیانو را آموخت. سال ۱۳۸۱ به هنرستان موسیقی تهران وارد و از همان هنرستان فارغ\u200Cالتحصیل شد. وی به همراه برادر خود، محمد زند وکیلی و میلاد ذبیحی گروهی را تحت عنوان زند بند تأسیس کرد. علاوه بر آن سابقه همکاری با گروه\u200Cهای دنگ شو، خموش، طلوع، نغمه کیمیا، شروند و گلبانگ را دارد و کنسرت\u200Cهایی نیز به همراه این گروه\u200Cها برگزار کرده\u200Cاست.\n" +
+                            "از جمله کارهای شاخص وی می\u200Cتوان به تیتراژ مجموعه\u200Cهای دزد و پلیس، پژمان (آخر قصه)، شاهگوش (زهره)، پادری (پادری) زیر پای مادر (آخرین رؤیا)و سریال خانگی اقا زاده (آخرین آواز) اشاره کرد. او در زمستان ۱۳۹۲ آلبومی را تحت عنوان عبور از مه در سبک سنتی با اشعاری از حافظ، زهرا پناهی، حسین منزوی و وحشی بافقی در ۱۴ قطعه منتشر کرد.[نیازمند منبع] علی زندوکیلی در بهمن ۱۳۹۳ در اختتامیه جشنواره فیلم فجر به همراه مهران مدیری آهنگ\u200Cهای ناردونه و رفتی را به صورت زنده اجرا کرد که بسیار از این اجرای او استقبال شد.[۴] علی زندوکیلی در سی\u200Cامین جشنواره موسیقی فجر در شیراز در ۲۴ بهمن ماه ۱۳۹۳ به اجرای برنامه پرداخت.",false,""),
+                Itempost("https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
+                    "محسن چاوشی","خواننده پاپ",
+                    "محسن چاوشی پس از دریافت فوق دیپلم حسابداری و اتمام دوره سربازی، فعالیت حرفه\u200Cای خود را در زمینهٔ موسیقی در سال ۱۳۸۲ با آلبوم نفرین آغاز کرد و پس از اخذ مجوز در سال ۱۳۸۷ آلبوم یه شاخه نیلوفر را منتشر کرد. از وی تاکنون بیش از ۲۰۰ قطعه موسیقی شنیده شده\u200Cاست، که شامل ۱۱ آلبوم و نیز چندین تک\u200Cآهنگ است.[۱۰]\n" +
+                            "\n" +
+                            "وی خواننده و آهنگساز ترانه\u200Cهای فیلم سینمایی سنتوری ساختهٔ داریوش مهرجویی بود. چاوشی همچنین یک قطعه برای تیتراژ پایانی فیلم سینمایی لامپ ۱۰۰ به کارگردانی سعید آقاخانی خواند.\n" +
+                            "\n" +
+                            "چاوشی خواننده ترانه\u200Cهای سریال شبکه خانگی شهرزاد ساختهٔ حسن فتحی می\u200Cباشد که این ترانه\u200Cها خصوصاً تک\u200Cآهنگ کجایی نقش بسزایی در محبوبیت او داشت.[۱۱][۱۲]",false,""),
+                Itempost("https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
+                    "محسن چاوشی","خواننده پاپ",
+                    "محسن چاوشی پس از دریافت فوق دیپلم حسابداری و اتمام دوره سربازی، فعالیت حرفه\u200Cای خود را در زمینهٔ موسیقی در سال ۱۳۸۲ با آلبوم نفرین آغاز کرد و پس از اخذ مجوز در سال ۱۳۸۷ آلبوم یه شاخه نیلوفر را منتشر کرد. از وی تاکنون بیش از ۲۰۰ قطعه موسیقی شنیده شده\u200Cاست، که شامل ۱۱ آلبوم و نیز چندین تک\u200Cآهنگ است.[۱۰]\n" +
+                            "\n" +
+                            "وی خواننده و آهنگساز ترانه\u200Cهای فیلم سینمایی سنتوری ساختهٔ داریوش مهرجویی بود. چاوشی همچنین یک قطعه برای تیتراژ پایانی فیلم سینمایی لامپ ۱۰۰ به کارگردانی سعید آقاخانی خواند.\n" +
+                            "\n" +
+                            "چاوشی خواننده ترانه\u200Cهای سریال شبکه خانگی شهرزاد ساختهٔ حسن فتحی می\u200Cباشد که این ترانه\u200Cها خصوصاً تک\u200Cآهنگ کجایی نقش بسزایی در محبوبیت او داشت.[۱۱][۱۲]",false,""),
+                Itempost("https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
+                    "محسن چاوشی","خواننده پاپ",
+                    "محسن چاوشی پس از دریافت فوق دیپلم حسابداری و اتمام دوره سربازی، فعالیت حرفه\u200Cای خود را در زمینهٔ موسیقی در سال ۱۳۸۲ با آلبوم نفرین آغاز کرد و پس از اخذ مجوز در سال ۱۳۸۷ آلبوم یه شاخه نیلوفر را منتشر کرد. از وی تاکنون بیش از ۲۰۰ قطعه موسیقی شنیده شده\u200Cاست، که شامل ۱۱ آلبوم و نیز چندین تک\u200Cآهنگ است.[۱۰]\n" +
+                            "\n" +
+                            "وی خواننده و آهنگساز ترانه\u200Cهای فیلم سینمایی سنتوری ساختهٔ داریوش مهرجویی بود. چاوشی همچنین یک قطعه برای تیتراژ پایانی فیلم سینمایی لامپ ۱۰۰ به کارگردانی سعید آقاخانی خواند.\n" +
+                            "\n" +
+                            "چاوشی خواننده ترانه\u200Cهای سریال شبکه خانگی شهرزاد ساختهٔ حسن فتحی می\u200Cباشد که این ترانه\u200Cها خصوصاً تک\u200Cآهنگ کجایی نقش بسزایی در محبوبیت او داشت.[۱۱][۱۲]",false,""),
+                Itempost("https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
+                    "محسن چاوشی","خواننده پاپ",
+                    "محسن چاوشی پس از دریافت فوق دیپلم حسابداری و اتمام دوره سربازی، فعالیت حرفه\u200Cای خود را در زمینهٔ موسیقی در سال ۱۳۸۲ با آلبوم نفرین آغاز کرد و پس از اخذ مجوز در سال ۱۳۸۷ آلبوم یه شاخه نیلوفر را منتشر کرد. از وی تاکنون بیش از ۲۰۰ قطعه موسیقی شنیده شده\u200Cاست، که شامل ۱۱ آلبوم و نیز چندین تک\u200Cآهنگ است.[۱۰]\n" +
+                            "\n" +
+                            "وی خواننده و آهنگساز ترانه\u200Cهای فیلم سینمایی سنتوری ساختهٔ داریوش مهرجویی بود. چاوشی همچنین یک قطعه برای تیتراژ پایانی فیلم سینمایی لامپ ۱۰۰ به کارگردانی سعید آقاخانی خواند.\n" +
+                            "\n" +
+                            "چاوشی خواننده ترانه\u200Cهای سریال شبکه خانگی شهرزاد ساختهٔ حسن فتحی می\u200Cباشد که این ترانه\u200Cها خصوصاً تک\u200Cآهنگ کجایی نقش بسزایی در محبوبیت او داشت.[۱۱][۱۲]",false,""),
+                Itempost("https://s6.uupload.ir/files/mohsenchavoshi_xhhm.jpg",
+                    "محسن چاوشی","خواننده پاپ",
+                    "محسن چاوشی پس از دریافت فوق دیپلم حسابداری و اتمام دوره سربازی، فعالیت حرفه\u200Cای خود را در زمینهٔ موسیقی در سال ۱۳۸۲ با آلبوم نفرین آغاز کرد و پس از اخذ مجوز در سال ۱۳۸۷ آلبوم یه شاخه نیلوفر را منتشر کرد. از وی تاکنون بیش از ۲۰۰ قطعه موسیقی شنیده شده\u200Cاست، که شامل ۱۱ آلبوم و نیز چندین تک\u200Cآهنگ است.[۱۰]\n" +
+                            "\n" +
+                            "وی خواننده و آهنگساز ترانه\u200Cهای فیلم سینمایی سنتوری ساختهٔ داریوش مهرجویی بود. چاوشی همچنین یک قطعه برای تیتراژ پایانی فیلم سینمایی لامپ ۱۰۰ به کارگردانی سعید آقاخانی خواند.\n" +
+                            "\n" +
+                            "چاوشی خواننده ترانه\u200Cهای سریال شبکه خانگی شهرزاد ساختهٔ حسن فتحی می\u200Cباشد که این ترانه\u200Cها خصوصاً تک\u200Cآهنگ کجایی نقش بسزایی در محبوبیت او داشت.[۱۱][۱۲]",false,""),
+
+                )
+            val searchView=searchitem.actionView as SearchView
+            searchView.setOnQueryTextListener(object :SearchView.OnQueryTextListener{
+                override fun onQueryTextSubmit(query: String?): Boolean {
+
+
+                    return true
+                }
+
+                override fun onQueryTextChange(newText: String?): Boolean {
+
+                    if (newText!!.isNotEmpty()){
+
+
+                    }else{
+
+
+                    }
+                    return true
+                }
+            })
+
+        }
+
+        super.onCreateOptionsMenu(menu, inflater)
+    }
+
 
     override fun onitemclicked(itempost: Itempost) {
         val intent=Intent(activity,MainActivity2::class.java)

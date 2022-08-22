@@ -35,6 +35,9 @@
     <string name="sefareshhayman">سفارش های من</string>
     <string name="setting">setting</string>
     <string name="view">200نفر ویدیو را تماشا کردند</string>
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/rounded_corner</item>
+    </style>
     <style name="Theme.Helpiran" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/abie_firozei</item>

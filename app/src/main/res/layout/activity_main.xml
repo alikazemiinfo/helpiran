@@ -82,9 +82,13 @@
 <!--    قسمت منو بار -->
     <com.google.android.material.navigation.NavigationView
 
+
+        app:shapeAppearanceOverlay="@color/sabz"
+        app:itemShapeAppearanceOverlay="@color/sabz"
+        app:itemRippleColor="@color/green"
         app:subheaderColor="@color/white"
-        app:itemTextColor="?attr/colorOnPrimary"
-        app:itemIconTint="@drawable/menu_colortext"
+        app:itemTextColor="@drawable/bottom_nav_selector"
+        app:itemIconTint="@drawable/bottom_nav_selector"
         app:menu="@menu/menu_navigation_asli"
         app:headerLayout="@layout/header_asli"
         android:id="@+id/navigationvieew_main"

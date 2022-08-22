@@ -17,8 +17,6 @@
                 <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b6062a11fd2c2cac933dc9cb1cb03798/transformed/jetified-viewbinding-7.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8412082c250957cc37d249411e040ade/transformed/material-1.6.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/233bfcc5e0e91c50a3bb4e18c756eea6/transformed/jetified-library-1.5.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/91b3e97bb9148aacda4e6b0062f90332/transformed/jetified-materialish-progress-1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f30180bead619198984679088ae1728e/transformed/appcompat-1.5.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1278b2e938bef0520d70e8f1b0e8b8b5/transformed/jetified-glide-4.13.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a96778fc0e283a76a9c8855624538760/transformed/jetified-viewpager2-1.0.0-api.jar</arg>
@@ -77,6 +75,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/ec9e05ac8178dd872b310bb8207a1ba6/transformed/jetified-disklrucache-4.13.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c8a71a6162d21d000df07d7c856deb3f/transformed/jetified-annotations-4.13.2.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5c16f2b0ae2ae7bb4593979e38dc48f5/transformed/jetified-glide-transformations-4.3.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/7b1350f40e932eb61c80d60fe13a0fe3/transformed/jetified-library-1.6.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/b1a7969b6bc0263425109b1f20baaf9a/transformed/jetified-materialish-progress-1.7-api.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-32/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
@@ -205,7 +205,7 @@
     <orderEntry type="library" name="Gradle: com.github.bumptech.glide:gifdecoder:4.13.2@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.tracing:tracing:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: jp.wasabeef:glide-transformations:4.3.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.github.f0ris.sweetalert:library:1.5.1@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.pnikosis:materialish-progress:1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.f0ris.sweetalert:library:1.6.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.pnikosis:materialish-progress:1.7@aar" level="project" />
   </component>
 </module>

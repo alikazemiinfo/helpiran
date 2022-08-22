@@ -34,6 +34,7 @@
         android:singleLine="true"
         android:paddingBottom="8dp"
         android:textColorHint="@color/gray" />
+
 <androidx.constraintlayout.widget.ConstraintLayout
 
     android:layout_marginTop="10dp"

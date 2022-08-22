@@ -9,8 +9,6 @@ MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\alido\.gradle\caches\tran
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\alido\.gradle\caches\transforms-3\56cd8ee0603d9bc535ba35d11a6a9017\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\alido\.gradle\caches\transforms-3\19c38cb1adbe49285fa7e19dc6ba4081\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\alido\.gradle\caches\transforms-3\bc1390e8b2c7a14bf4fc1e0020c2309f\transformed\jetified-appcompat-resources-1.5.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\alido\.gradle\caches\transforms-3\ab99a85f3cef449a58a18a9eda58fbed\transformed\jetified-library-1.5.1\AndroidManifest.xml:2:1-13:12
-MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\alido\.gradle\caches\transforms-3\de7d416b28e190afd160472629f9c19a\transformed\jetified-materialish-progress-1.0\AndroidManifest.xml:2:1-17:12
 MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\alido\.gradle\caches\transforms-3\3521fbfde91dfca4c39799f4d57ece5d\transformed\appcompat-1.5.0\AndroidManifest.xml:17:1-22:12
 MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\alido\.gradle\caches\transforms-3\9ad44aa797db510ea5f2137ca331b085\transformed\jetified-glide-transformations-4.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.bumptech.glide:glide:4.13.2] C:\Users\alido\.gradle\caches\transforms-3\f97cc4731dc3cd87362a4dcfa3781692\transformed\jetified-glide-4.13.2\AndroidManifest.xml:2:1-12:12
@@ -24,6 +22,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\alido\.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\alido\.gradle\caches\transforms-3\5f55fcf5633c715817896385e1315dc8\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\alido\.gradle\caches\transforms-3\d5692e7307e900ac9fe2b1939ccfdfdb\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\alido\.gradle\caches\transforms-3\2f6381802fb03846544ecd95e3952ed3\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\alido\.gradle\caches\transforms-3\5dadbbc00265cdd349fca1b68d90b95e\transformed\jetified-library-1.6.2\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\alido\.gradle\caches\transforms-3\783fd51aea255906b64051218b0ca23d\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\1c8423d28b3dec3a873a63f71406f9c3\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
@@ -53,6 +52,7 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\alido\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\alido\.gradle\caches\transforms-3\01cf044542d51b834fb383280479ec3b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\alido\.gradle\caches\transforms-3\849e62e796ee5a81f4339419460a3553\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\alido\.gradle\caches\transforms-3\c9f4795e29fb7d72c8e0f18b494c2263\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\alido\.gradle\caches\transforms-3\33f48d7e4a31b1a025adfd3201ff4a84\transformed\jetified-materialish-progress-1.7\AndroidManifest.xml:2:1-13:12
 INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-45:12
 INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-45:12
 INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-45:12
@@ -88,14 +88,12 @@ MERGED from [com.google.android.material:material:1.6.1] C:\Users\alido\.gradle\
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\alido\.gradle\caches\transforms-3\56cd8ee0603d9bc535ba35d11a6a9017\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\alido\.gradle\caches\transforms-3\19c38cb1adbe49285fa7e19dc6ba4081\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\alido\.gradle\caches\transforms-3\19c38cb1adbe49285fa7e19dc6ba4081\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\alido\.gradle\caches\transforms-3\ab99a85f3cef449a58a18a9eda58fbed\transformed\jetified-library-1.5.1\AndroidManifest.xml:11:5-20
-MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\alido\.gradle\caches\transforms-3\ab99a85f3cef449a58a18a9eda58fbed\transformed\jetified-library-1.5.1\AndroidManifest.xml:11:5-20
-MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\alido\.gradle\caches\transforms-3\de7d416b28e190afd160472629f9c19a\transformed\jetified-materialish-progress-1.0\AndroidManifest.xml:11:5-15:19
-MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\alido\.gradle\caches\transforms-3\de7d416b28e190afd160472629f9c19a\transformed\jetified-materialish-progress-1.0\AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.bumptech.glide:glide:4.13.2] C:\Users\alido\.gradle\caches\transforms-3\f97cc4731dc3cd87362a4dcfa3781692\transformed\jetified-glide-4.13.2\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.13.2] C:\Users\alido\.gradle\caches\transforms-3\f97cc4731dc3cd87362a4dcfa3781692\transformed\jetified-glide-4.13.2\AndroidManifest.xml:10:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\alido\.gradle\caches\transforms-3\2f6381802fb03846544ecd95e3952ed3\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\alido\.gradle\caches\transforms-3\2f6381802fb03846544ecd95e3952ed3\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\alido\.gradle\caches\transforms-3\5dadbbc00265cdd349fca1b68d90b95e\transformed\jetified-library-1.6.2\AndroidManifest.xml:11:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\alido\.gradle\caches\transforms-3\5dadbbc00265cdd349fca1b68d90b95e\transformed\jetified-library-1.6.2\AndroidManifest.xml:11:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.8.0] C:\Users\alido\.gradle\caches\transforms-3\c35c0d9480f232f7279f51f9028e1d15\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
@@ -108,6 +106,8 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\alido\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\alido\.gradle\caches\transforms-3\840cf322d28cc53fe00542c621eccd44\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\alido\.gradle\caches\transforms-3\2f609b1f83742879754c424eaa099866\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\alido\.gradle\caches\transforms-3\2f609b1f83742879754c424eaa099866\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\alido\.gradle\caches\transforms-3\33f48d7e4a31b1a025adfd3201ff4a84\transformed\jetified-materialish-progress-1.7\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\alido\.gradle\caches\transforms-3\33f48d7e4a31b1a025adfd3201ff4a84\transformed\jetified-materialish-progress-1.7\AndroidManifest.xml:11:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] C:\Users\alido\.gradle\caches\transforms-3\c35c0d9480f232f7279f51f9028e1d15\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
@@ -122,7 +122,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\al
 		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:19:9-29
 	android:icon
 		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:13:9-42
-		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\alido\.gradle\caches\transforms-3\de7d416b28e190afd160472629f9c19a\transformed\jetified-materialish-progress-1.0\AndroidManifest.xml:13:9-45
 	android:allowBackup
 		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
@@ -167,10 +166,6 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\alido\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\alido\.gradle\caches\transforms-3\19c38cb1adbe49285fa7e19dc6ba4081\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\alido\.gradle\caches\transforms-3\bc1390e8b2c7a14bf4fc1e0020c2309f\transformed\jetified-appcompat-resources-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.5.0] C:\Users\alido\.gradle\caches\transforms-3\bc1390e8b2c7a14bf4fc1e0020c2309f\transformed\jetified-appcompat-resources-1.5.0\AndroidManifest.xml:20:5-44
-MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\alido\.gradle\caches\transforms-3\ab99a85f3cef449a58a18a9eda58fbed\transformed\jetified-library-1.5.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\alido\.gradle\caches\transforms-3\ab99a85f3cef449a58a18a9eda58fbed\transformed\jetified-library-1.5.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\alido\.gradle\caches\transforms-3\de7d416b28e190afd160472629f9c19a\transformed\jetified-materialish-progress-1.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\alido\.gradle\caches\transforms-3\de7d416b28e190afd160472629f9c19a\transformed\jetified-materialish-progress-1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\alido\.gradle\caches\transforms-3\3521fbfde91dfca4c39799f4d57ece5d\transformed\appcompat-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.0] C:\Users\alido\.gradle\caches\transforms-3\3521fbfde91dfca4c39799f4d57ece5d\transformed\appcompat-1.5.0\AndroidManifest.xml:20:5-44
 MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\alido\.gradle\caches\transforms-3\9ad44aa797db510ea5f2137ca331b085\transformed\jetified-glide-transformations-4.3.0\AndroidManifest.xml:5:5-7:41
@@ -197,6 +192,8 @@ MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\alido\.gradle\caches\transfo
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\alido\.gradle\caches\transforms-3\d5692e7307e900ac9fe2b1939ccfdfdb\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\alido\.gradle\caches\transforms-3\2f6381802fb03846544ecd95e3952ed3\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\alido\.gradle\caches\transforms-3\2f6381802fb03846544ecd95e3952ed3\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\alido\.gradle\caches\transforms-3\5dadbbc00265cdd349fca1b68d90b95e\transformed\jetified-library-1.6.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.6.2] C:\Users\alido\.gradle\caches\transforms-3\5dadbbc00265cdd349fca1b68d90b95e\transformed\jetified-library-1.6.2\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\alido\.gradle\caches\transforms-3\783fd51aea255906b64051218b0ca23d\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\alido\.gradle\caches\transforms-3\783fd51aea255906b64051218b0ca23d\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\1c8423d28b3dec3a873a63f71406f9c3\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
@@ -255,6 +252,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\alido\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\alido\.gradle\caches\transforms-3\849e62e796ee5a81f4339419460a3553\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\alido\.gradle\caches\transforms-3\c9f4795e29fb7d72c8e0f18b494c2263\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\alido\.gradle\caches\transforms-3\c9f4795e29fb7d72c8e0f18b494c2263\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\alido\.gradle\caches\transforms-3\33f48d7e4a31b1a025adfd3201ff4a84\transformed\jetified-materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\alido\.gradle\caches\transforms-3\33f48d7e4a31b1a025adfd3201ff4a84\transformed\jetified-materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
 INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

@@ -54,4 +54,7 @@ class trendadaptor(private val data:ArrayList<Itempost>, private val itemevent: 
 
         return data.size
     }
+    override fun getItemViewType(position: Int): Int {
+        return position
+    }
 }

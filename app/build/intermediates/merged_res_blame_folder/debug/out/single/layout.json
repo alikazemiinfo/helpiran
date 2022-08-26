@@ -1,98 +1,110 @@
 [
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\item_test.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\item_test.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\activity_activitychipmanager.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\activity_activitychipmanager.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\frag_newfrag_opener.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\frag_newfrag_opener.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_porbazdid.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_porbazdid.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\item_test.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\item_test.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\fragment_contactus.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\fragment_contactus.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\item_explore.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\item_explore.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\frag_newfrag_opener.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\frag_newfrag_opener.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\activity_main2.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\activity_main2.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_khane.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_khane.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\header_main.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\header_main.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\item_card.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\item_card.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\item_card.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\item_card.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\fragment_darbarema.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\fragment_darbarema.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\item_main2_test.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\item_main2_test.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\header_asli.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\header_asli.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_darbarema.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_darbarema.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\fragment_profile.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\activity_main2.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\fragment_khane.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\fragment_khane.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\activity_activityopenermenujadid.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\activity_activityopenermenujadid.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\fragment_test.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\fragment_test.xml"
+        "merged": "ir.ez4.helpiran.app-mergeDebugResources-33:/layout/activity_activitychipmanager.xml",
+        "source": "ir.ez4.helpiran.app-main-36:/layout/activity_activitychipmanager.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\fragment_porbazdid.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\fragment_porbazdid.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\customview_layoutalertdialog.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\customview_layoutalertdialog.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\item_trend.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\item_trend.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\frag_activitymain2_test.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\frag_activitymain2_test.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\testingfab.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\testingfab.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_contactus.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_contactus.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\fragment_myprofile.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\fragment_myprofile.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\testingfab.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\testingfab.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\fragment_trend.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\fragment_trend.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\header_asli.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\header_asli.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\frag_activitymain2_test.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\frag_activitymain2_test.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\header_main.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\header_main.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\item_porbazdid.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\item_porbazdid.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\item_trend.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\item_trend.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\item_main2_test.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\item_main2_test.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_myprofile.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_myprofile.xml"
     },
     {
-        "merged": "ir.ez4.helpiran.app-mergeDebugResources-32:/layout/activity_main.xml",
-        "source": "ir.ez4.helpiran.app-main-35:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_test.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_test.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\customview_layoutalertdialog.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\customview_layoutalertdialog.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_explore.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_explore.xml"
     },
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-32:\\layout\\fragment_explore.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-35:\\layout\\fragment_explore.xml"
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\item_porbazdid.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\item_porbazdid.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_chipmanager.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_chipmanager.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\fragment_trend.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\fragment_trend.xml"
+    },
+    {
+        "merged": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-33:\\layout\\item_explore.xml",
+        "source": "C:\\Users\\ThinkPad\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-36:\\layout\\item_explore.xml"
     }
 ]

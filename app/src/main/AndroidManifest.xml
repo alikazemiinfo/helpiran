@@ -17,29 +17,25 @@
         android:theme="@style/Theme.Helpiran"
         tools:replace="android:icon"
         tools:targetApi="31">
-
-<!--        مربوط به لایه تست هستش و هیچوقت نباید روی لایه اصلی فراخوان بشود-->
         <activity
-            android:name=".MainActivity2"
-            android:exported="false"/>
-
-
-<!--        لایه اصلی که استفاده شده است-->
+            android:name=".activities.Activitychipmanager"
+            android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.Activityopenermenujadid"
+            android:exported="false" /> <!-- مربوط به لایه تست هستش و هیچوقت نباید روی لایه اصلی فراخوان بشود -->
+        <activity
+            android:name=".activities.MainActivity2"
+            android:exported="false" /> <!-- لایه اصلی که استفاده شده است -->
+        <activity
+            android:name=".activities.MainActivity"
             android:exported="true">
-
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
-
-
     </application>
 
 </manifest>

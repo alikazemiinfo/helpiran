@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/chipgroup_main_jaleb"
+                app:singleSelection="true"
+                app:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <com.google.android.material.chip.Chip
+                    style="@style/Widget.MaterialComponents.Chip.Filter"
+                    android:id="@+id/chip_khane"
+                    app:chipIconTint="@color/white"
+                    app:chipIcon="@drawable/selector_khane"
+                    app:chipBackgroundColor="@color/gray"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:text="خانه"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_porbazdid"
+                    app:chipBackgroundColor="@color/gray"
+                    app:chipIconTint="@color/white"
+                    app:chipIcon="@drawable/selector_porbazdid"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:text="قسمت پربازدید"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_myprofile"
+                    app:chipIconTint="@color/white"
+                    app:chipIcon="@drawable/selector_myprofile"
+                    app:chipBackgroundColor="@color/gray"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:text="پروفایل من"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_darbarema"
+                    app:chipIconTint="@color/white"
+                    app:chipIcon="@drawable/selector_darbarema"
+                    app:chipBackgroundColor="@color/gray"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:text="درباره ما"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_contactus"
+                    app:chipIconTint="@color/white"
+                    app:chipIcon="@drawable/selector_contactus"
+                    app:chipBackgroundColor="@color/gray"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:text="تماس با ما"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </com.google.android.material.chip.ChipGroup>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.google.android.material.snackbar.Snackbar
+import ir.ez4.helpiran.R
 import ir.ez4.helpiran.databinding.FragmentMyprofileBinding
 
 class Fragprofileman:Fragment() {
@@ -20,5 +22,6 @@ class Fragprofileman:Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
     }
 }

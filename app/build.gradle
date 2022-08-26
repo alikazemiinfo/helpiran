@@ -2,10 +2,12 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-parcelize'
+    id 'kotlin-kapt'
 }
 
 android {
     compileSdk 32
+
     viewBinding {
         enabled = true
     }
@@ -74,5 +76,14 @@ dependencies {
 
 
 
+
+
+
+    //curved btom2
+    implementation  'com.etebarian:meow-bottom-navigation-java:1.2.0'
+
+
+
+    kapt 'com.android.databinding:compiler:3.1.4'
 
 }

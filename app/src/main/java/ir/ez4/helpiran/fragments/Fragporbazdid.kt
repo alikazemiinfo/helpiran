@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import cn.pedant.SweetAlert.SweetAlertDialog
-import ir.ez4.helpiran.MainActivity2
+import ir.ez4.helpiran.activities.MainActivity2
 import ir.ez4.helpiran.R
 import ir.ez4.helpiran.adaptors.Itemevent
 import ir.ez4.helpiran.adaptors.porbazdidadaptor
@@ -323,7 +323,7 @@ class Fragporbazdid:Fragment(),Itemevent {
 
 
     override fun onitemclicked(itempost: Itempost) {
-        val intent=Intent(activity,MainActivity2::class.java)
+        val intent=Intent(activity, MainActivity2::class.java)
         intent.putExtra(SENDING_DATA_WITH_INTENTTOMAINACTIVITY_INORDERTOSHOWOURCONTENT,itempost)
         startActivity(intent)
     }

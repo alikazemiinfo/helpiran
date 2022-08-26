@@ -5,12 +5,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import ir.ez4.helpiran.MainActivity2
+import ir.ez4.helpiran.activities.MainActivity2
 import ir.ez4.helpiran.adaptors.Itemevent
 import ir.ez4.helpiran.adaptors.trendadaptor
 import ir.ez4.helpiran.data.Itempost

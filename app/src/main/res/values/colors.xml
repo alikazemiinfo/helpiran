@@ -30,4 +30,10 @@
     <color name="black_light">#BE000000</color>
     <color name="gray_light">#D6D6D6</color>
     <color name="green">#388E3C</color>
+    <color name="abie_link">#0645AD</color>
+
+
+    <color name="colorPrimary">#18c0d4</color>
+    <color name="colorPrimaryDark">#18c0d4</color>
+    <color name="colorAccent">#D81B60</color>
 </resources>

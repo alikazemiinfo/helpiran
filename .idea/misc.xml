@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_camera.xml" value="0.1795" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_home.xml" value="0.1795" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_setting.xml" value="0.1" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_write.xml" value="0.1795" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/selector_porbazdid.xml" value="0.1795" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_activitychipmanager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_activityopenermenujadid.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/frag_newfrag_opener.xml" value="0.16" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_chipmanager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_khane.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/menu-v26/menu_opener_chap.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_navigation_asli.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_opener_chap.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/alido/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable-v24/ic_myprofilefill.xml" value="0.2295" />

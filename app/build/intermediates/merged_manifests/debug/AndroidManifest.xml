@@ -22,15 +22,17 @@
         android:roundIcon="@drawable/ic_alert"
         android:supportsRtl="true"
         android:theme="@style/Theme.Helpiran" >
-
-        <!-- مربوط به لایه تست هستش و هیچوقت نباید روی لایه اصلی فراخوان بشود -->
         <activity
-            android:name="ir.ez4.helpiran.MainActivity2"
+            android:name="ir.ez4.helpiran.activities.Activitychipmanager"
             android:exported="false" />
-
-        <!-- لایه اصلی که استفاده شده است -->
         <activity
-            android:name="ir.ez4.helpiran.MainActivity"
+            android:name="ir.ez4.helpiran.activities.Activityopenermenujadid"
+            android:exported="false" /> <!-- مربوط به لایه تست هستش و هیچوقت نباید روی لایه اصلی فراخوان بشود -->
+        <activity
+            android:name="ir.ez4.helpiran.activities.MainActivity2"
+            android:exported="false" /> <!-- لایه اصلی که استفاده شده است -->
+        <activity
+            android:name="ir.ez4.helpiran.activities.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

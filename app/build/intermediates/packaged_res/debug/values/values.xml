@@ -2,11 +2,15 @@
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="abie_dark">#0097A7</color>
     <color name="abie_firozei">#00ACC1</color>
+    <color name="abie_link">#0645AD</color>
     <color name="abieasemani">#87CEEB</color>
     <color name="black">#FF000000</color>
     <color name="black_light">#BE000000</color>
     <color name="blacklight">#1B1B1B</color>
     <color name="blue">#03A9F4</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#18c0d4</color>
+    <color name="colorPrimaryDark">#18c0d4</color>
     <color name="gold">#FFCA28</color>
     <color name="gray">#AEAEAE</color>
     <color name="gray_light">#D6D6D6</color>
@@ -28,6 +32,7 @@
     <dimen name="text_medium">20sp</dimen>
     <string name="app_name">helpiran</string>
     <string name="closedrawer">closemenu</string>
+    <string name="main_page_selected">%s page is selected</string>
     <string name="nameofcontent">جناب آقای علی کاظمی</string>
     <string name="opendrawer">openmenu</string>
     <string name="payamha">payamha</string>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+
+        app:showAsAction="ifRoom"
+        android:title="تنظیمات"
+        android:icon="@drawable/ic_setting"
+        android:id="@+id/menue_senoghte_firstitem"/>
+
+
+    <item
+
+        app:showAsAction="always"
+        android:icon="@drawable/ic_calender"
+        android:title="مدیریت زمان"
+        android:id="@+id/menu_senoghte_chiptesting"/>
+
+
+    <item android:title="قسمت مدیریت" android:icon="@drawable/ic_manage" android:id="@+id/nemidonam">
+
+        <menu>
+
+
+            <item
+
+                android:icon="@drawable/ic_camera"
+                android:title="مدیریت عکس ها"
+                android:id="@+id/menu_thirditem"/>
+            <item
+                android:checkable="true"
+                android:icon="@drawable/ic_chart"
+                android:title="مدیریت نقدینگی"
+                android:id="@+id/menu_forthitem"/>
+        </menu>
+
+    </item>
+
+    <item android:title="باز کردن صفحه جدید" android:icon="@drawable/ic_openactivity" android:id="@+id/nemidonam2">
+
+        <menu>
+
+
+            <item
+                android:icon="@drawable/ic_cop"
+                android:title="صفحه جالب"
+                android:id="@+id/menu_ghesmatdovom_openactivity"
+                android:checkable="true"/>
+
+        </menu>
+
+
+
+    </item>
+</menu>

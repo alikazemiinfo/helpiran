@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="frm_address" type="id" />
+    <item name="frm_email" type="id" />
+    <item name="frm_password" type="id" />
+    <item name="frm_sairtanzimat" type="id" />
+    <item name="btn_taid_fragdialog" type="id" />
+    <item name="btn_cancel_fragdialog" type="id" />
+    <item name="edt_etebar" type="id" />
+    <item name="etebar_namayeshi" type="id" />
+    <item name="edt_vorodi_shomarejadid_infrag1" type="id" />
+    <item name="shomarejadid_namayeshi" type="id" />
+    <item name="edt_vorodi_name_infrag1" type="id" />
+    <item name="name_namayeshi" type="id" />
+</resources>

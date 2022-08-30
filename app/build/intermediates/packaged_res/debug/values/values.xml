@@ -4,6 +4,7 @@
     <color name="abie_firozei">#00ACC1</color>
     <color name="abie_link">#0645AD</color>
     <color name="abieasemani">#87CEEB</color>
+    <color name="animColor">#19cc95</color>
     <color name="black">#FF000000</color>
     <color name="black_light">#BE000000</color>
     <color name="blacklight">#1B1B1B</color>
@@ -21,6 +22,7 @@
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="red">#C61919</color>
+    <color name="ringBackground">#bbbbbb</color>
     <color name="sabz">#43A047</color>
     <color name="sorati_ghermez">#F06292</color>
     <color name="teal_200">#FF03DAC5</color>
@@ -30,7 +32,20 @@
     <dimen name="padding_extra_large">20dp</dimen>
     <dimen name="padding_medium">8dp</dimen>
     <dimen name="text_medium">20sp</dimen>
+    <item name="btn_cancel_fragdialog" type="id"/>
+    <item name="btn_taid_fragdialog" type="id"/>
+    <item name="edt_etebar" type="id"/>
+    <item name="edt_vorodi_name_infrag1" type="id"/>
+    <item name="edt_vorodi_shomarejadid_infrag1" type="id"/>
+    <item name="etebar_namayeshi" type="id"/>
+    <item name="frm_address" type="id"/>
+    <item name="frm_email" type="id"/>
+    <item name="frm_password" type="id"/>
+    <item name="frm_sairtanzimat" type="id"/>
+    <item name="name_namayeshi" type="id"/>
+    <item name="shomarejadid_namayeshi" type="id"/>
     <string name="app_name">helpiran</string>
+    <string name="background_message">The coast is clear, time to do background work!</string>
     <string name="closedrawer">closemenu</string>
     <string name="main_page_selected">%s page is selected</string>
     <string name="nameofcontent">جناب آقای علی کاظمی</string>
@@ -39,6 +54,7 @@
     <string name="portarfdar">اخبار پربازدید</string>
     <string name="sefareshhayman">سفارش های من</string>
     <string name="setting">setting</string>
+    <string name="strEnable">Enable Dark Mode</string>
     <string name="view">200نفر ویدیو را تماشا کردند</string>
     <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="android:windowBackground">@drawable/rounded_corner</item>

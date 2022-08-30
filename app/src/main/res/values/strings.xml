@@ -9,4 +9,10 @@
     <string name="setting">setting</string>
     <string name="portarfdar">اخبار پربازدید</string>
     <string name="main_page_selected">%s page is selected</string>
+
+    <string name="background_message">The coast is clear, time to do background work!</string>
+
+
+    <string name="strEnable">Enable Dark Mode</string>
+
 </resources>

@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "ir.ez4.helpiran.app-mergeDebugResources-32:/values-v16/values-v16.xml",
+            "outputFile": "ir.ez4.helpiran.app-mergeDebugResources-42:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ThinkPad\\.gradle\\caches\\transforms-3\\c35c0d9480f232f7279f51f9028e1d15\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ThinkPad\\.gradle\\caches\\transforms-3\\3521fbfde91dfca4c39799f4d57ece5d\\transformed\\appcompat-1.5.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\3521fbfde91dfca4c39799f4d57ece5d\\transformed\\appcompat-1.5.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\alido\\.gradle\\caches\\transforms-3\\c35c0d9480f232f7279f51f9028e1d15\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

@@ -22,7 +22,9 @@
     <color name="blacklight">#1B1B1B</color>
     <color name="graymeshki">#2B2B2B</color>
 
+    <color name="ringBackground">#bbbbbb</color>
 
+    <color name="animColor">#19cc95</color>
 
     <color name="blue">#03A9F4</color>
     <color name="orange">#FF7043</color>
@@ -36,4 +38,6 @@
     <color name="colorPrimary">#18c0d4</color>
     <color name="colorPrimaryDark">#18c0d4</color>
     <color name="colorAccent">#D81B60</color>
+
+
 </resources>

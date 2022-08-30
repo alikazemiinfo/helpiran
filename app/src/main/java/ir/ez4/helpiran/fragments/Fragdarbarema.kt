@@ -1,13 +1,18 @@
 package ir.ez4.helpiran.fragments
 
+
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import android.graphics.Color;
+import android.os.Build;
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.google.android.material.card.MaterialCardView
 import ir.ez4.helpiran.R
 import ir.ez4.helpiran.databinding.FragmentDarbaremaBinding
+
 
 class Fragdarbarema:Fragment() {
 
@@ -37,5 +42,5 @@ class Fragdarbarema:Fragment() {
             true
         }
 
-    }
-}
+
+}}

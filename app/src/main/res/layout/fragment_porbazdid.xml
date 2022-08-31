@@ -86,6 +86,8 @@
         android:layout_height="match_parent">
 
         <androidx.recyclerview.widget.RecyclerView
+
+            android:layoutAnimation="@anim/recycler"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             android:background="@color/white"
             android:id="@+id/rcycle_porbazdid"

@@ -11,6 +11,7 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim animalpha
 anim btn_checkbox_to_checked_box_inner_merged_animation
 anim btn_checkbox_to_checked_box_outer_merged_animation
 anim btn_checkbox_to_checked_icon_null_animation
@@ -753,6 +754,7 @@ attr logoScaleType
 attr lottieAnimationViewStyle
 attr lottie_autoPlay
 attr lottie_cacheComposition
+attr lottie_clipToCompositionBounds
 attr lottie_colorFilter
 attr lottie_enableMergePathsForKitKatAndAbove
 attr lottie_fallbackRes
@@ -765,7 +767,6 @@ attr lottie_rawRes
 attr lottie_renderMode
 attr lottie_repeatCount
 attr lottie_repeatMode
-attr lottie_scale
 attr lottie_speed
 attr lottie_url
 attr marginHorizontal
@@ -3157,6 +3158,7 @@ id imageView5
 id image_view
 id imgDetail
 id imgMohsenLoading
+id img_animation_test
 id img_card1
 id img_card_trend
 id img_explore_main
@@ -3191,6 +3193,7 @@ id linear_probazdid_testi
 id listMode
 id list_item
 id loading
+id lottie_anim_test
 id lottie_layer_name
 id main_toolbar
 id mask_left
@@ -3760,6 +3763,8 @@ menu searchbar
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw happy
+raw update
 string LOADING
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -5041,7 +5046,7 @@ styleable LinearLayoutCompat android_gravity android_orientation android_baselin
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
-styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_ignoreDisabledSystemAnimations lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_scale lottie_speed lottie_url
+styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_ignoreDisabledSystemAnimations lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_speed lottie_url lottie_clipToCompositionBounds
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType simpleItemLayout simpleItems

@@ -88,7 +88,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7ffc32bc4baa133b30cab924c291f688/transformed/jetified-annotations-13.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/742a61807dd538a7aed1cf421280a033/transformed/jetified-ImageSlideshow-0.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8243c249c9f659e9796598f9ffdb8a3c/transformed/jetified-autoimageslider-1.3.9-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/4a85cf56027dd06915ffbddca85260bd/transformed/jetified-lottie-4.2.2-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/0e68453dcb4b47832c1780b40491654c/transformed/jetified-lottie-5.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b8d530e655ba32163ffe93c284ac2707/transformed/constraintlayout-2.1.4-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5c16f2b0ae2ae7bb4593979e38dc48f5/transformed/jetified-glide-transformations-4.3.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7b1350f40e932eb61c80d60fe13a0fe3/transformed/jetified-library-1.6.2-api.jar</arg>
@@ -234,7 +234,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.interpolator:interpolator:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.exifinterface:exifinterface:1.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.tracing:tracing:1.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.airbnb.android:lottie:4.2.2@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.airbnb.android:lottie:5.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.constraintlayout:constraintlayout:2.1.4@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat:1.5.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.appcompat:appcompat-resources:1.5.0@aar" level="project" />

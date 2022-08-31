@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-43:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-46:\\layout\\activity_main.xml"
+        "merged": "ir.ez4.helpiran.app-mergeDebugResources-43:/layout/fragment_darbarema.xml",
+        "source": "ir.ez4.helpiran.app-main-46:/layout/fragment_darbarema.xml"
     },
     {
-        "merged": "ir.ez4.helpiran.app-mergeDebugResources-43:/layout/fragment_editmobile.xml",
-        "source": "ir.ez4.helpiran.app-main-46:/layout/fragment_editmobile.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-43:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-46:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-43:\\layout\\header_asli.xml",

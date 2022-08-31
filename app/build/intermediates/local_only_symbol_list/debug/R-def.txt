@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+anim animalpha
 color abie_dark
 color abie_firozei
 color abie_link
@@ -186,6 +187,7 @@ id imageSlider
 id imageView22
 id imgDetail
 id imgMohsenLoading
+id img_animation_test
 id img_card1
 id img_card_trend
 id img_explore_main
@@ -196,6 +198,7 @@ id koli
 id linearLayout
 id linear_asli_itemha
 id linear_probazdid_testi
+id lottie_anim_test
 id main_toolbar
 id menu_actiity_ghashang
 id menu_darbarema
@@ -304,6 +307,8 @@ menu menu_opener_chap
 menu searchbar
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw happy
+raw update
 string app_name
 string background_message
 string closedrawer

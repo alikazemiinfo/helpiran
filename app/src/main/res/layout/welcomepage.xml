@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <com.airbnb.lottie.LottieAnimationView
+
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/welcome" />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black_light"
+        android:fontFamily="@font/yekanbold"
+        android:textSize="18sp"
+        android:id="@+id/txt_pleaseenter_information"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView"
+        android:text="لطفا اطلاعات خود را وارد نمایید"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        android:id="@+id/entering_name_user"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:hint="لطفا نام و نام خانوادگی خود را وارد نمایید..."
+        app:hintAnimationEnabled="true"
+        app:boxStrokeWidth="1dp"
+        app:boxStrokeColor="@color/blue"
+        android:textColorHint="@color/gray"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_pleaseenter_information">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtinput_nameandsurename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        android:id="@+id/entering_email_user"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:hint="لطفا ایمیل خود را وارد نمایید..."
+        app:hintAnimationEnabled="true"
+        app:boxStrokeWidth="1dp"
+        app:boxStrokeColor="@color/blue"
+        android:textColorHint="@color/gray"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entering_name_user">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtinput_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_choosingradiobtn_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/yekanbold"
+        android:text="لطفا جنسیت خود را انتخاب فرمایید"
+        android:textColor="@color/black_light"
+        android:textSize="14sp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entering_email_user" />
+
+
+
+    <RadioGroup
+        android:id="@+id/rdiogrp_jensiat"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_choosingradiobtn_information">
+
+
+        <RadioButton
+            android:buttonTint="@color/black_light"
+            android:id="@+id/radio_male"
+            android:fontFamily="@font/yekan1"
+            android:text="آقا"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:buttonTint="@color/black_light"
+            android:id="@+id/radio_female"
+            android:fontFamily="@font/yekan1"
+            android:text="خانم"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:buttonTint="@color/black_light"
+            android:id="@+id/radio_none"
+            android:fontFamily="@font/yekan1"
+            android:text="تمایلی به اعلام این مورد ندارم"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RadioGroup>
+
+
+    <LinearLayout
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdiogrp_jensiat"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_weight="1"
+            android:id="@+id/btn_cancel"
+            android:layout_marginEnd="70dp"
+            app:cornerRadius="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:backgroundTint="#CA0D0D"
+            android:textColor="#FFF"
+            android:text="لغو"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_taid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+
+            android:layout_weight="1"
+            android:backgroundTint="#66BB6A"
+            android:padding="20dp"
+            android:text="ثبت اطلاعات"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            app:cornerRadius="30dp" />
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

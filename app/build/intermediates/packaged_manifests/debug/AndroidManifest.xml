@@ -24,6 +24,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Helpiran" >
         <activity
+            android:name="ir.ez4.helpiran.activities.Activityasliaval"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="ir.ez4.helpiran.activities.Activitychipmanager"
             android:exported="false" />
         <activity
@@ -34,13 +43,7 @@
             android:exported="false" /> <!-- لایه اصلی که استفاده شده است -->
         <activity
             android:name="ir.ez4.helpiran.activities.MainActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"

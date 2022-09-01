@@ -1,7 +1,9 @@
 package ir.ez4.helpiran.fragments
 
+import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -13,6 +15,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.app.JobIntentService
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
+import cn.pedant.SweetAlert.SweetAlertDialog
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.interfaces.ItemClickListener
 import com.denzcoskun.imageslider.models.SlideModel
@@ -21,7 +24,9 @@ import com.smarteist.autoimageslider.SliderAnimations
 import com.smarteist.autoimageslider.SliderView
 import ir.ez4.ghazasaracenter.NetworkChecker
 import ir.ez4.helpiran.R
+import ir.ez4.helpiran.activities.Activityasliaval
 import ir.ez4.helpiran.activities.Activitychipmanager
+import ir.ez4.helpiran.activities.MainActivity
 import ir.ez4.helpiran.adaptors.Viewpageradaptor
 import ir.ez4.helpiran.databinding.FragmentKhaneBinding
 
@@ -30,6 +35,7 @@ const val NIGHT_MODE = "NightMode"
 const val PREF = "AppSettingsPrefs"
 
 class Fragkhane:Fragment() {
+    private lateinit var shareprefrence: SharedPreferences
     lateinit var urlaksha: ArrayList<String>
     lateinit var sliderView: SliderView
     lateinit var sliderAdapter: Viewpageradaptor
@@ -40,8 +46,13 @@ class Fragkhane:Fragment() {
 
         binding= FragmentKhaneBinding.inflate(layoutInflater,container,false)
 
+        shareprefrence= requireContext().getSharedPreferences("dataavalie", Context.MODE_PRIVATE)
 
         return binding.root
+
+
+
+
 
 
 
@@ -50,7 +61,7 @@ class Fragkhane:Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        binding.chipHazfetelat.text = "حذف اطلاعات کاربری"
         sliderView = binding.slider
         urlaksha = ArrayList()
         urlaksha =
@@ -190,10 +201,44 @@ class Fragkhane:Fragment() {
         }
 
 
+        binding.chipHazfetelat.setOnClickListener {
+
+            val checkesm2 = shareprefrence.contains("esmuser")
+            val checkemail2 = shareprefrence.contains("emailuser")
+            val checkgendertype2 = shareprefrence.contains("gendertype")
+
+            if (checkesm2 && checkemail2 && checkgendertype2){
+                shareprefrence.edit().clear().apply()
+
+                val pDialog = SweetAlertDialog(context, SweetAlertDialog.SUCCESS_TYPE)
+
+                pDialog.setCancelable(true)
+                pDialog.titleText = "عملیات موفق"
+                pDialog.contentText="تمامی اطلاعات شما با موفقیت از سرور حذف گردید و همچنین در ورود بعدی نیاز به ورود مجدد آن ضروری است"
+                pDialog.confirmText="متوجه شدم ممنون"
+                pDialog.confirmButtonBackgroundColor = R.color.red
+                pDialog.show()
+
+
+                binding.chipHazfetelat.text = "افزودن اطلاعات کاربری"
+
+
+        }else if (!checkesm2 || !checkemail2 || !checkgendertype2){
+
+                binding.chipHazfetelat.text = "حذف اطلاعات کاربری"
+
+                val activitybaadi= Intent(context, Activityasliaval::class.java)
+
+
+                startActivity(activitybaadi)
+                activity?.finish()
+
+            }
+
 
     }
 
-
+        }
 
     override fun onStart() {
         super.onStart()

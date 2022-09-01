@@ -3,6 +3,10 @@ local
 anim animalpha
 anim recycler
 anim recycler_item
+anim slide_from_left
+anim slide_from_right
+anim slide_to_left
+anim slide_to_right
 color abie_dark
 color abie_firozei
 color abie_link
@@ -96,6 +100,7 @@ drawable ic_pardazesh
 drawable ic_pass_profile
 drawable ic_profilefill
 drawable ic_profileoutfill
+drawable ic_remove_icon
 drawable ic_returned
 drawable ic_safesavings
 drawable ic_sair_profile
@@ -140,9 +145,11 @@ font yekanbold
 id appBarMain
 id appbar
 id appbar_main
+id btn_cancel
 id btn_cancel_fragdialog
 id btn_nav
 id btn_opensite_activity
+id btn_taid
 id btn_taid_fragdialog
 id btn_viraiesh
 id btom_navigation_main
@@ -154,6 +161,7 @@ id chat_fab_text
 id chip_baresishbake
 id chip_contactus
 id chip_darbarema
+id chip_hazfetelat
 id chip_khane
 id chip_menueghashang
 id chip_myprofile
@@ -171,6 +179,8 @@ id edt_etebar
 id edt_search
 id edt_vorodi_name_infrag1
 id edt_vorodi_shomarejadid_infrag1
+id entering_email_user
+id entering_name_user
 id etebar_namayeshi
 id ext2_fab_portrafdar
 id ext_fab_portrafdar
@@ -194,12 +204,12 @@ id img_card1
 id img_card_trend
 id img_explore_main
 id img_explorer_main
-id img_load_khanande
 id img_transmission_newactivityopener
 id koli
 id linearLayout
 id linear_asli_itemha
 id linear_probazdid_testi
+id lottieAnimationView
 id lottie_anim_test
 id main_toolbar
 id menu_actiity_ghashang
@@ -226,11 +236,13 @@ id nemidonam
 id nemidonam2
 id nested_scroll_view
 id newpagemoved
-id pause_1
-id play_1
 id profile_image_circeled
+id radio_female
+id radio_male
+id radio_none
 id rcycle_porbazdid
 id rcycle_trend
+id rdiogrp_jensiat
 id recycler_explore
 id searchbar_youtube_alikazemi
 id sefarsha
@@ -251,6 +263,7 @@ id toolbarAsli
 id toolbar_main_zirmajmoe
 id toolbar_title
 id trendiano
+id txt_choosingradiobtn_information
 id txt_detail_subtitle
 id txt_detail_text
 id txt_detail_title
@@ -269,9 +282,11 @@ id txt_myprofile_esm
 id txt_myprofile_title
 id txt_namayesh_shomareuserinprofile
 id txt_num_trend
-id txt_result_etelatkhanande
+id txt_pleaseenter_information
 id txt_sub_trend
 id txt_title_trend
+id txtinput_email
+id txtinput_nameandsurename
 id view3
 layout activity_activitychipmanager
 layout activity_activityopenermenujadid
@@ -279,7 +294,6 @@ layout activity_main
 layout activity_main2
 layout customview_layoutalertdialog
 layout frag_activitymain2_test
-layout frag_changingphonenumber
 layout frag_newfrag_opener
 layout fragment_chipmanager
 layout fragment_contactus
@@ -303,6 +317,7 @@ layout item_test
 layout item_trend
 layout test_myprofilebeautiful
 layout testingfab
+layout welcomepage
 menu menu_navigation_asli
 menu menu_navigation_bottom_asli
 menu menu_opener_chap
@@ -311,6 +326,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 raw happy
 raw update
+raw welcome
 string app_name
 string background_message
 string closedrawer

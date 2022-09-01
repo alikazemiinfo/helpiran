@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\alido\.gradle\caches\transforms-3\b07fa6989b9de53e5902a02e6e9109b0\transformed\jetified-viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\alido\.gradle\caches\transforms-3\9ad44aa797db510ea5f2137ca331b085\transformed\jetified-glide-transformations-4.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.bumptech.glide:glide:4.13.2] C:\Users\alido\.gradle\caches\transforms-3\f97cc4731dc3cd87362a4dcfa3781692\transformed\jetified-glide-4.13.2\AndroidManifest.xml:2:1-12:12
-MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\alido\.gradle\caches\transforms-3\0a4a0fa26c534f5fd0896ac9af85fdd8\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\alido\.gradle\caches\transforms-3\e6e3361c58f88b2f0e90cb90fb5149bb\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\alido\.gradle\caches\transforms-3\0ae02114a4c57ee9f9394fb8b713daf2\transformed\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\alido\.gradle\caches\transforms-3\56cd8ee0603d9bc535ba35d11a6a9017\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [com.github.Shashank02051997:FancyAboutPage-Android:2.6] C:\Users\alido\.gradle\caches\transforms-3\aa9bb8c2846915c9762a75dade2a066c\transformed\jetified-FancyAboutPage-Android-2.6\AndroidManifest.xml:2:1-11:12
@@ -64,22 +64,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\alido\.gradle\caches\transform
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\alido\.gradle\caches\transforms-3\c9f4795e29fb7d72c8e0f18b494c2263\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\alido\.gradle\caches\transforms-3\33f48d7e4a31b1a025adfd3201ff4a84\transformed\jetified-materialish-progress-1.7\AndroidManifest.xml:2:1-13:12
 MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\alido\.gradle\caches\transforms-3\c25084a919325cc6f0cade1c4bb5d6c5\transformed\jetified-circularimageview-3.0.2\AndroidManifest.xml:2:1-15:12
-INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:4:5-30
 		INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:2:11-69
@@ -92,11 +92,11 @@ ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\
 	android:name
 		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:9:5-40:19
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:9:5-45:19
 MERGED from [com.github.bumptech.glide:glide:4.13.2] C:\Users\alido\.gradle\caches\transforms-3\f97cc4731dc3cd87362a4dcfa3781692\transformed\jetified-glide-4.13.2\AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.13.2] C:\Users\alido\.gradle\caches\transforms-3\f97cc4731dc3cd87362a4dcfa3781692\transformed\jetified-glide-4.13.2\AndroidManifest.xml:10:5-20
-MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\alido\.gradle\caches\transforms-3\0a4a0fa26c534f5fd0896ac9af85fdd8\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:9:5-20
-MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\alido\.gradle\caches\transforms-3\0a4a0fa26c534f5fd0896ac9af85fdd8\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\alido\.gradle\caches\transforms-3\e6e3361c58f88b2f0e90cb90fb5149bb\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\alido\.gradle\caches\transforms-3\e6e3361c58f88b2f0e90cb90fb5149bb\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\alido\.gradle\caches\transforms-3\56cd8ee0603d9bc535ba35d11a6a9017\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\alido\.gradle\caches\transforms-3\56cd8ee0603d9bc535ba35d11a6a9017\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\alido\.gradle\caches\transforms-3\19c38cb1adbe49285fa7e19dc6ba4081\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -151,40 +151,46 @@ MERGED from [com.mikhaellopez:circularimageview:3.0.2] C:\Users\alido\.gradle\ca
 		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:12:9-65
 	tools:replace
 		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:19:9-37
-activity#ir.ez4.helpiran.activities.Activitychipmanager
-ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:21:9-23:40
+activity#ir.ez4.helpiran.activities.Activityasliaval
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:63-86
 	android:name
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:13-59
-activity#ir.ez4.helpiran.activities.Activityopenermenujadid
-ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:24:9-26:40
-	android:exported
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:26:13-37
-	android:name
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:25:13-63
-activity#ir.ez4.helpiran.activities.MainActivity2
-ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:27:9-29:40
-	android:exported
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:29:13-37
-	android:name
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:28:13-53
-activity#ir.ez4.helpiran.activities.MainActivity
-ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:30:9-39:20
-	android:exported
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:32:13-36
-	android:name
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:31:13-52
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:19-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:27:27-74
+activity#ir.ez4.helpiran.activities.Activitychipmanager
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:32:13-59
+activity#ir.ez4.helpiran.activities.Activityopenermenujadid
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:35:13-63
+activity#ir.ez4.helpiran.activities.MainActivity2
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:38:13-53
+activity#ir.ez4.helpiran.activities.MainActivity
+ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:40:9-42:39
+	android:exported
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:41:13-52
 uses-sdk
 INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
@@ -195,8 +201,8 @@ MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\alido\.gradle\cac
 MERGED from [jp.wasabeef:glide-transformations:4.3.0] C:\Users\alido\.gradle\caches\transforms-3\9ad44aa797db510ea5f2137ca331b085\transformed\jetified-glide-transformations-4.3.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.13.2] C:\Users\alido\.gradle\caches\transforms-3\f97cc4731dc3cd87362a4dcfa3781692\transformed\jetified-glide-4.13.2\AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.13.2] C:\Users\alido\.gradle\caches\transforms-3\f97cc4731dc3cd87362a4dcfa3781692\transformed\jetified-glide-4.13.2\AndroidManifest.xml:6:5-8:41
-MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\alido\.gradle\caches\transforms-3\0a4a0fa26c534f5fd0896ac9af85fdd8\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.airbnb.android:lottie:4.2.2] C:\Users\alido\.gradle\caches\transforms-3\0a4a0fa26c534f5fd0896ac9af85fdd8\transformed\jetified-lottie-4.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\alido\.gradle\caches\transforms-3\e6e3361c58f88b2f0e90cb90fb5149bb\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:5.2.0] C:\Users\alido\.gradle\caches\transforms-3\e6e3361c58f88b2f0e90cb90fb5149bb\transformed\jetified-lottie-5.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\alido\.gradle\caches\transforms-3\0ae02114a4c57ee9f9394fb8b713daf2\transformed\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] C:\Users\alido\.gradle\caches\transforms-3\0ae02114a4c57ee9f9394fb8b713daf2\transformed\jetified-ImageSlideshow-0.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\alido\.gradle\caches\transforms-3\56cd8ee0603d9bc535ba35d11a6a9017\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41

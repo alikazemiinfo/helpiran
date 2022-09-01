@@ -22,13 +22,14 @@ import cn.pedant.SweetAlert.SweetAlertDialog
 import com.bumptech.glide.Glide
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+import ir.dunijet.animation.ext.BaseActivity
 import ir.ez4.helpiran.R
 import ir.ez4.helpiran.data.Itempost
 import ir.ez4.helpiran.databinding.ActivityMain2Binding
 import ir.ez4.helpiran.fragments.Frag_menu_newfragopener
 import ir.ez4.helpiran.fragments.SENDING_DATA_WITH_INTENTTOMAINACTIVITY_INORDERTOSHOWOURCONTENT
 
-class MainActivity2 : AppCompatActivity() {
+class MainActivity2 : BaseActivity() {
     lateinit var binding:ActivityMain2Binding
     private var fabTitle: TextView? = null
     private var appbar: AppBarLayout? = null

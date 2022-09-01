@@ -2,10 +2,13 @@ package ir.ez4.helpiran.activities
 
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
@@ -17,12 +20,16 @@ import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
 import cn.pedant.SweetAlert.SweetAlertDialog
 import com.google.android.material.snackbar.Snackbar
+import ir.dunijet.animation.ext.BaseActivity
 import ir.ez4.helpiran.R
 import ir.ez4.helpiran.databinding.ActivityMainBinding
 import ir.ez4.helpiran.fragments.*
+import ir.ez4.helpiran.thread.threadfirst
+import ir.ez4.helpiran.thread.threadsecond
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
+    private lateinit var shareprefrence: SharedPreferences
     private lateinit var binding: ActivityMainBinding
     @SuppressLint("ResourceAsColor")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,6 +37,48 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbarMainZirmajmoe)
+
+
+
+        shareprefrence=getSharedPreferences("dataavalie", Context.MODE_PRIVATE)
+
+
+
+        //بررسی وضعیت ترد با استفاده از نام
+        Log.v("statusthread", Thread.currentThread().name)
+
+//        راه حل اول ساخت یک متغیر می سازیم
+        val threadinja=threadfirst()
+        threadinja.start()
+
+//        راه حال دوم برای ترد
+
+        val threadinja2=Thread(threadsecond())
+        threadinja2.start()
+
+        //راه حل سوم برای ترد
+
+        val threadinja3=Thread(object:Runnable{
+            override fun run() {
+                Log.v("statusthread", Thread.currentThread().name)
+
+            }
+        })
+        threadinja3.start()
+
+
+        //راه حال چهارم
+
+        val threadinja5=Thread{
+
+
+            Log.v("statusthread", Thread.currentThread().name)
+
+
+        }.start()
+
+
+
 
 
         val actionBarDrawerToggle=ActionBarDrawerToggle(
@@ -164,8 +213,9 @@ class MainActivity : AppCompatActivity() {
 
 
                     val activitybaadi2=Intent(this,Activitychipmanager::class.java)
-
                     startActivity(activitybaadi2)
+
+
 
                     binding.drawerMain.closeDrawer(GravityCompat.END)
                 }

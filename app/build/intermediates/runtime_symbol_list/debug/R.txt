@@ -37,8 +37,12 @@ int anim mtrl_bottom_sheet_slide_out 0x7f010023
 int anim mtrl_card_lowers_interpolator 0x7f010024
 int anim recycler 0x7f010025
 int anim recycler_item 0x7f010026
-int anim success_bow_roate 0x7f010027
-int anim success_mask_layout 0x7f010028
+int anim slide_from_left 0x7f010027
+int anim slide_from_right 0x7f010028
+int anim slide_to_left 0x7f010029
+int anim slide_to_right 0x7f01002a
+int anim success_bow_roate 0x7f01002b
+int anim success_mask_layout 0x7f01002c
 int animator design_appbar_state_list_animator 0x7f020000
 int animator design_fab_hide_motion_spec 0x7f020001
 int animator design_fab_show_motion_spec 0x7f020002
@@ -2759,6 +2763,7 @@ int drawable ic_pardazesh 0x7f0700bc
 int drawable ic_pass_profile 0x7f0700bd
 int drawable ic_profilefill 0x7f0700be
 int drawable ic_profileoutfill 0x7f0700bf
+int drawable ic_remove_icon 0x7f070117
 int drawable ic_returned 0x7f0700c0
 int drawable ic_safesavings 0x7f0700c1
 int drawable ic_sair_profile 0x7f0700c2
@@ -2964,9 +2969,11 @@ int id bounce 0x7f090069
 int id bounceBoth 0x7f09006a
 int id bounceEnd 0x7f09006b
 int id bounceStart 0x7f09006c
+int id btn_cancel 0x7f0902ac
 int id btn_cancel_fragdialog 0x7f09006d
 int id btn_nav 0x7f09006e
 int id btn_opensite_activity 0x7f09006f
+int id btn_taid 0x7f0902ad
 int id btn_taid_fragdialog 0x7f090070
 int id btn_viraiesh 0x7f090071
 int id btom_navigation_main 0x7f090072
@@ -2999,6 +3006,7 @@ int id chip_baresishbake 0x7f09008c
 int id chip_contactus 0x7f09008d
 int id chip_darbarema 0x7f09008e
 int id chip_group 0x7f09008f
+int id chip_hazfetelat 0x7f0902b9
 int id chip_khane 0x7f090090
 int id chip_menueghashang 0x7f090091
 int id chip_myprofile 0x7f090092
@@ -3088,6 +3096,8 @@ int id end 0x7f0900e5
 int id endToStart 0x7f0900e6
 int id enterAlways 0x7f0900e7
 int id enterAlwaysCollapsed 0x7f0900e8
+int id entering_email_user 0x7f0902ae
+int id entering_name_user 0x7f0902af
 int id error_frame 0x7f0900e9
 int id error_x 0x7f0900ea
 int id etebar_namayeshi 0x7f0900eb
@@ -3164,7 +3174,6 @@ int id img_card1 0x7f090131
 int id img_card_trend 0x7f090132
 int id img_explore_main 0x7f090133
 int id img_explorer_main 0x7f090134
-int id img_load_khanande 0x7f090135
 int id img_transmission_newactivityopener 0x7f090136
 int id immediateStop 0x7f090137
 int id included 0x7f090138
@@ -3194,6 +3203,7 @@ int id linear_probazdid_testi 0x7f09014f
 int id listMode 0x7f090150
 int id list_item 0x7f090151
 int id loading 0x7f090152
+int id lottieAnimationView 0x7f0902b0
 int id lottie_anim_test 0x7f090153
 int id lottie_layer_name 0x7f090154
 int id main_toolbar 0x7f090155
@@ -3316,11 +3326,9 @@ int id parent_matrix 0x7f0901c9
 int id password_toggle 0x7f0901ca
 int id path 0x7f0901cb
 int id pathRelative 0x7f0901cc
-int id pause_1 0x7f0901cd
 int id peekHeight 0x7f0901ce
 int id percent 0x7f0901cf
 int id pin 0x7f0901d0
-int id play_1 0x7f0901d1
 int id position 0x7f0901d2
 int id postLayout 0x7f0901d3
 int id profile_image_circeled 0x7f0901d4
@@ -3329,9 +3337,13 @@ int id progress_circular 0x7f0901d6
 int id progress_dialog 0x7f0901d7
 int id progress_horizontal 0x7f0901d8
 int id radio 0x7f0901d9
+int id radio_female 0x7f0902b1
+int id radio_male 0x7f0902b2
+int id radio_none 0x7f0902b3
 int id ratio 0x7f0901da
 int id rcycle_porbazdid 0x7f0901db
 int id rcycle_trend 0x7f0901dc
+int id rdiogrp_jensiat 0x7f0902b4
 int id rectangles 0x7f0901dd
 int id recycler_explore 0x7f0901de
 int id restart 0x7f0901df
@@ -3484,6 +3496,7 @@ int id transition_transform 0x7f090271
 int id trendiano 0x7f090272
 int id triangle 0x7f090273
 int id tv_count 0x7f090274
+int id txt_choosingradiobtn_information 0x7f0902b5
 int id txt_detail_subtitle 0x7f090275
 int id txt_detail_text 0x7f090276
 int id txt_detail_title 0x7f090277
@@ -3502,9 +3515,11 @@ int id txt_myprofile_esm 0x7f090283
 int id txt_myprofile_title 0x7f090284
 int id txt_namayesh_shomareuserinprofile 0x7f090285
 int id txt_num_trend 0x7f090286
-int id txt_result_etelatkhanande 0x7f090287
+int id txt_pleaseenter_information 0x7f0902b6
 int id txt_sub_trend 0x7f090288
 int id txt_title_trend 0x7f090289
+int id txtinput_email 0x7f0902b7
+int id txtinput_nameandsurename 0x7f0902b8
 int id unchecked 0x7f09028a
 int id uniform 0x7f09028b
 int id unlabeled 0x7f09028c
@@ -3655,7 +3670,6 @@ int layout design_navigation_menu_item 0x7f0c0030
 int layout design_text_input_end_icon 0x7f0c0031
 int layout design_text_input_start_icon 0x7f0c0032
 int layout frag_activitymain2_test 0x7f0c0033
-int layout frag_changingphonenumber 0x7f0c0034
 int layout frag_newfrag_opener 0x7f0c0035
 int layout fragment_chipmanager 0x7f0c0036
 int layout fragment_contactus 0x7f0c0037
@@ -3757,6 +3771,7 @@ int layout text_view_with_line_height_from_layout 0x7f0c0096
 int layout text_view_with_line_height_from_style 0x7f0c0097
 int layout text_view_with_theme_line_height 0x7f0c0098
 int layout text_view_without_line_height 0x7f0c0099
+int layout welcomepage 0x7f0c009a
 int menu menu_navigation_asli 0x7f0d0000
 int menu menu_navigation_bottom_asli 0x7f0d0001
 int menu menu_opener_chap 0x7f0d0002
@@ -3766,6 +3781,7 @@ int mipmap ic_launcher_round 0x7f0e0001
 int plurals mtrl_badge_content_description 0x7f0f0000
 int raw happy 0x7f100000
 int raw update 0x7f100001
+int raw welcome 0x7f100002
 int string LOADING 0x7f110000
 int string abc_action_bar_home_description 0x7f110001
 int string abc_action_bar_up_description 0x7f110002

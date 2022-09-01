@@ -8,11 +8,12 @@ import android.os.Bundle
 import androidx.annotation.RequiresApi
 import com.bumptech.glide.Glide
 import com.google.android.material.snackbar.Snackbar
+import ir.dunijet.animation.ext.BaseActivity
 import ir.ez4.helpiran.R
 import ir.ez4.helpiran.databinding.ActivityActivityopenermenujadidBinding
 import jp.wasabeef.glide.transformations.RoundedCornersTransformation
 
-class Activityopenermenujadid : AppCompatActivity() {
+class Activityopenermenujadid : BaseActivity() {
     lateinit var binding:ActivityActivityopenermenujadidBinding
     @RequiresApi(Build.VERSION_CODES.M)
     override fun onCreate(savedInstanceState: Bundle?) {

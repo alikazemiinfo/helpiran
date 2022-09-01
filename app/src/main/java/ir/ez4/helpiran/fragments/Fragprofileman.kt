@@ -1,5 +1,7 @@
 package ir.ez4.helpiran.fragments
 
+import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -12,16 +14,30 @@ import ir.ez4.helpiran.databinding.FragmentMyprofileBinding
 class Fragprofileman:Fragment(),Frageditmobile.MainDialogeven2 {
 
     lateinit var binding:FragmentMyprofileBinding
-
+    private lateinit var shareprefrence: SharedPreferences
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         binding= FragmentMyprofileBinding.inflate(layoutInflater,container,false)
+        shareprefrence= requireContext().getSharedPreferences("dataavalie", Context.MODE_PRIVATE)
         return binding.root
     }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+
+        val esm=shareprefrence.getString("esmuser","")
+        val email=shareprefrence.getString("emailuser","")
+        val gendertype=shareprefrence.getInt("gendertype",4)
+
+
+
+
+
+        binding.txtMyprofileEsm.text="$esm"
+
+
 
         binding.sparkButtonViraieshtelephon.setOnClickListener {
 

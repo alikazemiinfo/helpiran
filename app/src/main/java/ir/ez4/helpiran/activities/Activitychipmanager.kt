@@ -18,13 +18,14 @@ import cn.pedant.SweetAlert.SweetAlertDialog
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation
 import com.google.android.material.chip.Chip
 import com.google.android.material.snackbar.Snackbar
+import ir.dunijet.animation.ext.BaseActivity
 import ir.ez4.helpiran.R
 import ir.ez4.helpiran.databinding.ActivityActivitychipmanagerBinding
 import ir.ez4.helpiran.databinding.FragmentKhaneBinding
 import ir.ez4.helpiran.fragments.*
 
 
-class Activitychipmanager : AppCompatActivity() {
+class Activitychipmanager : BaseActivity() {
 
 
 

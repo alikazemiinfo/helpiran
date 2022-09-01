@@ -1,5 +1,9 @@
 [
     {
+        "merged": "ir.ez4.helpiran.app-mergeDebugResources-43:/layout/fragment_khane.xml",
+        "source": "ir.ez4.helpiran.app-main-46:/layout/fragment_khane.xml"
+    },
+    {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-43:\\layout\\activity_main.xml",
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-46:\\layout\\activity_main.xml"
     },
@@ -92,8 +96,8 @@
         "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-46:\\layout\\item_test.xml"
     },
     {
-        "merged": "ir.ez4.helpiran.app-mergeDebugResources-43:/layout/fragment_porbazdid.xml",
-        "source": "ir.ez4.helpiran.app-main-46:/layout/fragment_porbazdid.xml"
+        "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-43:\\layout\\welcomepage.xml",
+        "source": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-main-46:\\layout\\welcomepage.xml"
     },
     {
         "merged": "C:\\Users\\alido\\.gradle\\daemon\\7.3.3\\ir.ez4.helpiran.app-mergeDebugResources-43:\\layout\\fragment_explore.xml",

@@ -3,35 +3,41 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/alido/.gradle/caches/transforms-3/0ae02114a4c57ee9f9394fb8b713daf2/transformed/jetified-ImageSlideshow-0.1.0/res/drawable/default_selected_dot.xml" value="0.2295" />
-        <entry key="..\:/Users/alido/.gradle/caches/transforms-3/0ae02114a4c57ee9f9394fb8b713daf2/transformed/jetified-ImageSlideshow-0.1.0/res/drawable/default_unselected_dot.xml" value="0.2295" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_camera.xml" value="0.1795" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_home.xml" value="0.1795" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_setting.xml" value="0.1" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_write.xml" value="0.1795" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/drawable/selector_porbazdid.xml" value="0.1795" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_activitychipmanager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_activityopenermenujadid.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/frag_newfrag_opener.xml" value="0.16" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_chipmanager.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_khane.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/layout/welcomepage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/menu-v26/menu_opener_chap.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_navigation_asli.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ThinkPad/Desktop/myposhe/tempamir/androidstudio/projectkotline/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_opener_chap.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/alido/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable-v24/ic_myprofilefill.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable-v24/rounded_corner.xml" value="0.1925" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/fab_btn_corner.xml" value="0.2295" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_adamnamayesh.xml" value="0.196" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_alaghe.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_alert.xml" value="0.2295" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_cable.xml" value="0.196" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_calender.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_camera.xml" value="0.2295" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_cellular.xml" value="0.196" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_contactus.xml" value="0.232" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_darbarema.xml" value="0.232" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_edit2.xml" value="0.232" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_ethernet.xml" value="0.196" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_home.xml" value="0.232" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_homefill.xml" value="0.232" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_ir_porbazdid.xml" value="0.232" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_khnae_checkshabake.xml" value="0.196" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_logo_hepiran.xml" value="0.199" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_menu.xml" value="0.196" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_myprofile.xml" value="0.232" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_profilefill.xml" value="0.2295" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_waitingtopay.xml" value="0.196" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_web.xml" value="0.232" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/ic_wikipedia_icon.xml" value="0.1925" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/menu_colortext.xml" value="0.2295" />
@@ -43,49 +49,31 @@
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/selector_myprofile.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/selector_porbazdid.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/shape_cricle.xml" value="0.196" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/shape_profileuser.xml" value="0.2295" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/shape_radiusaks.xml" value="0.196" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/drawable/shape_radiusprofile.xml" value="0.196" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout-v31/frag_changingphonenumber.xml" value="0.36102564102564105" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout-v31/item_pagekhanloaderaks.xml" value="0.365625" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout-v31/popup_plaingmusic.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/10.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/2.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_activitychipmanager.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_activityopenermenujadid.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/activity_main2.xml" value="0.33" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/customview_layoutalertdialog.xml" value="0.22" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/edit_proile.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/frag_activitymain2_test.xml" value="0.25" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/frag_newfrag_opener.xml" value="0.33" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_chipmanager.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_contactus.xml" value="0.33" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_contactus.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_darbarema.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_editmobile.xml" value="0.33" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_khane.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_myprofile.xml" value="0.25" />
+        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_myprofile.xml" value="0.33" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_porbazdid.xml" value="0.33" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/fragment_trend.xml" value="0.33" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/header_asli.xml" value="0.33" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/item1.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/item2.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/item3.xml" value="0.184375" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/item_card.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/item_main2_test.xml" value="0.365625" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/item_pagekhanloaderaks.xml" value="0.365625" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/item_porbazdid.xml" value="0.365625" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/item_test.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/item_trend.xml" value="0.33" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/test_myprofilebeautiful.xml" value="0.33" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/testingfab.xml" value="0.33" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/layout/welcomepage.xml" value="0.33" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/menu-v26/menu_navigation_bottom_asli.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_navigation_asli.xml" value="0.365625" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_navigation_bottom_asli.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/menu/menu_opener_chap.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/alido/Desktop/projectkotline/helpiran/helpiran/app/src/main/res/menu/searchbar.xml" value="0.36666666666666664" />
       </map>
     </option>

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Helpiran.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Helpiran.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/helpiran.iml" filepath="$PROJECT_DIR$/.idea/modules/helpiran.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/helpiran.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/helpiran.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/helpiran.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/helpiran.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/helpiran.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/helpiran.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/helpiran.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/helpiran.app.unitTest.iml" />
     </modules>

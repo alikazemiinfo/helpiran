@@ -36,8 +36,13 @@ class Activityasliaval:BaseActivity() {
         val checkesm = shareprefrence.contains("esmuser")
         val checkemail = shareprefrence.contains("emailuser")
         val checkgendertype = shareprefrence.contains("gendertype")
-        if (checkesm && checkemail && checkgendertype) {
+        val checkshomare=shareprefrence.contains("shomareuser")
+        val checkramz=shareprefrence.contains("ramzuser")
+
+
+        if (checkesm && checkemail && checkgendertype&&checkramz&&checkshomare) {
             val activityasli = Intent(this, MainActivity::class.java)
+            finish()
             startActivity(activityasli)
 
         }
@@ -48,13 +53,16 @@ class Activityasliaval:BaseActivity() {
             val checkerinputesm = binding.txtinputNameandsurename
             val checkerinputemail = binding.txtinputEmail
             val checkrdiogroup = binding.rdiogrpJensiat
+            val checkshomaremobile=binding.txtinputMobile
+            val checkaddress=binding.txtinputAddress
+            val checkramz=binding.txtinputRamz
 
 
-            if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()){
+            if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()||checkshomaremobile.text!!.isEmpty()||checkramz.text!!.isEmpty()){
 
 
 
-            if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()) {
+            if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()||checkshomaremobile.text!!.isEmpty()||checkramz.text!!.isEmpty()) {
 
                 if (checkerinputesm.text!!.isEmpty()) {
 
@@ -76,11 +84,47 @@ class Activityasliaval:BaseActivity() {
                 } else if (checkerinputemail.text!!.isNotEmpty()) {
                     binding.enteringEmailUser.isErrorEnabled = false
 
+
                 }
+
+
+                if (checkshomaremobile.text!!.isEmpty()) {
+
+                    binding.enteringPhonenumberUser.isErrorEnabled = true
+                    binding.enteringPhonenumberUser.error = "لطفا شماره موبایل خود را وارد نمایید"
+
+                } else if (checkshomaremobile.text!!.isNotEmpty()) {
+                    binding.enteringPhonenumberUser.isErrorEnabled = false
+
+
+                }
+
+
+
+
+                if (checkramz.text!!.isEmpty()) {
+
+                    binding.enteringPhonenumberUser.isErrorEnabled = true
+                    binding.enteringPhonenumberUser.error = "لطفا رمز عبور دلخواه خود را وارد نمایید"
+
+                } else if (checkramz.text!!.isEmpty()) {
+                    binding.enteringPhonenumberUser.isErrorEnabled = false
+
+
+                }
+
 
                 Toast.makeText(this, "لطفا موارد قرمز رنگ را وارد نمایید", Toast.LENGTH_SHORT)
                     .show()
+
+
+
+
             }
+
+
+
+
 
 
                 if (!binding.radioMale.isChecked&&!binding.radioFemale.isChecked&&!binding.radioNone.isChecked) {
@@ -96,11 +140,12 @@ class Activityasliaval:BaseActivity() {
 
 
 
-                if (checkerinputesm.text!!.isNotEmpty() && checkerinputemail.text!!.isNotEmpty() && checkrdiogroup.isNotEmpty()) {
+                if (checkerinputesm.text!!.isNotEmpty() && checkerinputemail.text!!.isNotEmpty() && checkrdiogroup.isNotEmpty()&&checkshomaremobile.text!!.isNotEmpty()&&checkramz.text!!.isNotEmpty()) {
 
                     binding.enteringNameUser.isErrorEnabled = false
                     binding.enteringEmailUser.isErrorEnabled = false
-
+                    binding.enteringPhonenumberUser.isErrorEnabled=false
+                    binding.enteringRamzUser.isErrorEnabled=false
 
                     val esmuser = binding.txtinputNameandsurename.text.toString()
                     shareprefrence.edit().putString("esmuser", esmuser).apply()
@@ -108,6 +153,16 @@ class Activityasliaval:BaseActivity() {
 
                     val emailuser = binding.txtinputEmail.text.toString()
                     shareprefrence.edit().putString("emailuser", emailuser).apply()
+
+
+                    val shomareuser=binding.txtinputMobile.text.toString()
+                    shareprefrence.edit().putString("shomareuser",shomareuser).apply()
+
+                    val ramzuser=binding.txtinputRamz.text.toString()
+                    shareprefrence.edit().putString("ramzuser",ramzuser).apply()
+
+                    val addressuser=binding.txtinputAddress.text.toString()
+                    shareprefrence.edit().putString("addressuser",addressuser).apply()
 
 
                     val rdiogr = binding.rdiogrpJensiat.checkedRadioButtonId.toInt()
@@ -137,7 +192,7 @@ class Activityasliaval:BaseActivity() {
             else {
 
 
-                if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()) {
+                if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()||checkshomaremobile.text!!.isEmpty()||checkramz.text!!.isEmpty()) {
 
                     if (checkerinputesm.text!!.isEmpty()) {
 
@@ -161,6 +216,33 @@ class Activityasliaval:BaseActivity() {
                         binding.enteringEmailUser.isErrorEnabled = false
 
                     }
+
+
+                    if (checkshomaremobile.text!!.isEmpty()) {
+
+                        binding.enteringPhonenumberUser.isErrorEnabled = true
+                        binding.enteringPhonenumberUser.error = "لطفا شماره موبایل خود را وارد نمایید"
+
+                    } else if (checkshomaremobile.text!!.isNotEmpty()) {
+                        binding.enteringPhonenumberUser.isErrorEnabled = false
+
+
+                    }
+
+
+
+
+                    if (checkramz.text!!.isEmpty()) {
+
+                        binding.enteringPhonenumberUser.isErrorEnabled = true
+                        binding.enteringPhonenumberUser.error = "لطفا رمز عبور دلخواه خود را وارد نمایید"
+
+                    } else if (checkramz.text!!.isEmpty()) {
+                        binding.enteringPhonenumberUser.isErrorEnabled = false
+
+
+                    }
+
                     Toast.makeText(this, "لطفا موارد قرمز رنگ را وارد نمایید", Toast.LENGTH_SHORT).show()
                 }
 
@@ -174,11 +256,12 @@ class Activityasliaval:BaseActivity() {
                 }
 
 
-                 if (checkerinputesm.text!!.isNotEmpty() && checkerinputemail.text!!.isNotEmpty() && checkrdiogroup.isNotEmpty()) {
+                 if (checkerinputesm.text!!.isNotEmpty() && checkerinputemail.text!!.isNotEmpty() && checkrdiogroup.isNotEmpty()&&checkshomaremobile.text!!.isNotEmpty()&&checkramz.text!!.isNotEmpty()) {
 
-                    binding.enteringNameUser.isErrorEnabled = false
-                    binding.enteringEmailUser.isErrorEnabled = false
-
+                     binding.enteringNameUser.isErrorEnabled = false
+                     binding.enteringEmailUser.isErrorEnabled = false
+                     binding.enteringPhonenumberUser.isErrorEnabled=false
+                     binding.enteringRamzUser.isErrorEnabled=false
 
                     val esmuser = binding.txtinputNameandsurename.text.toString()
                     shareprefrence.edit().putString("esmuser", esmuser).apply()
@@ -188,7 +271,17 @@ class Activityasliaval:BaseActivity() {
                     shareprefrence.edit().putString("emailuser", emailuser).apply()
 
 
-                    if (binding.radioMale.isChecked) {
+                     val shomareuser=binding.txtinputMobile.text.toString()
+                     shareprefrence.edit().putString("shomareuser",shomareuser).apply()
+
+                     val ramzuser=binding.txtinputRamz.text.toString()
+                     shareprefrence.edit().putString("ramzuser",ramzuser).apply()
+
+                     val addressuser=binding.txtinputAddress.text.toString()
+                     shareprefrence.edit().putString("addressuser",addressuser).apply()
+
+
+                     if (binding.radioMale.isChecked) {
 
                         //یعنی کاربر ما مرد است
                         shareprefrence.edit().putInt("gendertype", 1).apply()
@@ -255,13 +348,19 @@ class Activityasliaval:BaseActivity() {
         val esm=shareprefrence.getString("esmuser","")
         val email=shareprefrence.getString("emailuser","")
         val gendertype=shareprefrence.getInt("gendertype",4)
-        
+        val shomare=shareprefrence.getString("shomareuser","")
+        val ramz=shareprefrence.getString("ramzuser","")
+        val address=shareprefrence.getString("addressuser","")
+
 
 
         //اعمال اطلاعات که از قبل داشتیم
 
         binding.txtinputNameandsurename.setText(esm)
         binding.txtinputEmail.setText(email)
+        binding.txtinputMobile.setText(shomare)
+        binding.txtinputRamz.setText(ramz)
+        binding.txtinputAddress.setText(address)
         if (gendertype==1){
 
             //یعنی کاربر مرد است

@@ -3097,8 +3097,11 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id entering_address_user
 id entering_email_user
 id entering_name_user
+id entering_phonenumber_user
+id entering_ramz_user
 id error_frame
 id error_x
 id etebar_namayeshi
@@ -3519,8 +3522,11 @@ id txt_num_trend
 id txt_pleaseenter_information
 id txt_sub_trend
 id txt_title_trend
+id txtinput_address
 id txtinput_email
+id txtinput_mobile
 id txtinput_nameandsurename
+id txtinput_ramz
 id unchecked
 id uniform
 id unlabeled

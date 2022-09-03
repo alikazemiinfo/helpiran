@@ -3513,6 +3513,7 @@ id txt_explore_detail
 id txt_explore_subtitle
 id txt_explore_title
 id txt_ghabeliattesti
+id txt_jensiat
 id txt_main_asli
 id txt_main_title2
 id txt_myprofile_esm

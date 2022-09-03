@@ -4,18 +4,22 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
+import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Bundle
-import android.view.View
-import android.widget.RadioButton
+import android.text.Editable
+import android.text.TextWatcher
+import android.util.Patterns
 import android.widget.RadioGroup
 import android.widget.Toast
 import androidx.core.view.isEmpty
 import androidx.core.view.isNotEmpty
+import androidx.core.widget.addTextChangedListener
 import cn.pedant.SweetAlert.SweetAlertDialog
 import ir.dunijet.animation.ext.BaseActivity
 import ir.ez4.helpiran.R
 import ir.ez4.helpiran.databinding.WelcomepageBinding
+
 
 class Activityasliaval:BaseActivity() {
     private lateinit var shareprefrence:SharedPreferences
@@ -40,6 +44,164 @@ class Activityasliaval:BaseActivity() {
         val checkramz=shareprefrence.contains("ramzuser")
 
 
+
+        //بررسی لحظه و نمایش لحظه ای
+
+
+
+
+
+        //عناوین اسمی
+        val gensiatkarbar=binding.txtJensiat
+        gensiatkarbar.text= "جناب آقای / سرکار خانم"
+
+
+        binding.rdiogrpJensiat.setOnCheckedChangeListener(RadioGroup.OnCheckedChangeListener { group, checkedId ->
+            if (checkedId == ir.ez4.helpiran.R.id.radio_male) {
+                gensiatkarbar.text= "جناب آقای"
+            } else if (checkedId == ir.ez4.helpiran.R.id.radio_female) {
+                gensiatkarbar.text= "سرکار خانم"
+            }
+            else if (checkedId == ir.ez4.helpiran.R.id.radio_none){
+                gensiatkarbar.text= "جناب آقای / سرکار خانم"
+            }else{
+
+                gensiatkarbar.text= "جناب آقای / سرکار خانم"
+            }
+        })
+
+        if (binding.radioMale.isChecked) {
+
+            //یعنی کاربر ما مرد است
+            gensiatkarbar.text= "جناب آقای"
+
+        } else if (binding.radioFemale.isChecked) {
+            //یعنی کاربر ما زن است
+            gensiatkarbar.text= "سرکار خانم"
+
+        } else if (binding.radioNone.isChecked) {
+
+            //یعنی کاربر ما نامعلوم است
+            gensiatkarbar.text= "جناب آقای / سرکار خانم"
+        }
+
+
+        //اضافه کردن قسمت نام و نام خانوادگی
+
+
+        binding.enteringNameUser.editText!!.addTextChangedListener {
+
+
+            if (it!!.isNotEmpty()) {
+
+                binding.enteringNameUser.isErrorEnabled=false
+                binding.enteringNameUser.isHelperTextEnabled=true
+                binding.enteringNameUser.error = null
+                binding.enteringNameUser.helperText = " ${gensiatkarbar.text} : ${binding.txtinputNameandsurename.text} "
+
+            } else {
+                binding.enteringNameUser.helperText = " ${gensiatkarbar.text} : ${binding.txtinputNameandsurename.text} "
+                binding.enteringNameUser.isErrorEnabled=false
+                binding.enteringNameUser.isHelperTextEnabled=false
+
+            }
+        }
+
+
+        //اضافه کردن قسمت ایمیل
+        if (binding.txtinputEmail.text!!.isEmpty()){
+            binding.enteringEmailUser.isErrorEnabled=false
+
+        }
+
+        binding.txtinputEmail.addTextChangedListener(object: TextWatcher{
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                binding.enteringEmailUser.isErrorEnabled=false
+                binding.enteringEmailUser.error=null
+            }
+
+            override fun onTextChanged(p0: CharSequence?,
+                                       p1: Int, p2: Int, p3: Int) {
+                // check inputted text that it is a valid email address or not
+                if (p0.isValidEmail()){
+                    binding.enteringEmailUser.isErrorEnabled=false
+                    binding.enteringEmailUser.error=null
+                    binding.enteringEmailUser.isHelperTextEnabled=true
+                    binding.enteringEmailUser.helperText="${binding.txtinputEmail.text.toString()} : ایمیل شما عبارت است از"
+                }else if (binding.txtinputEmail.text!!.isEmpty()){
+                    binding.enteringEmailUser.isHelperTextEnabled=false
+                    binding.enteringEmailUser.isErrorEnabled=false
+                    binding.enteringEmailUser.error=null
+
+                }
+                else{
+                    binding.enteringEmailUser.isErrorEnabled=true
+                    binding.enteringEmailUser.isHelperTextEnabled=false
+                    binding.enteringEmailUser.error = "شیوه نگارش ایمیل اشتباه یا کامل نمی باشد"
+                }
+            }
+
+            override fun afterTextChanged(p0: Editable?) { }
+        })
+
+
+        //اضافه کردن قسمت شماره موبایل
+
+
+        if (binding.txtinputMobile.text!!.isEmpty()){
+            binding.enteringPhonenumberUser.isErrorEnabled=false
+
+        }else if (binding.txtinputMobile.text!!.length<9){
+            binding.enteringEmailUser.error="لطفا شماره موبایل خود را مجددا بررسی نمایید"
+        }
+
+
+        binding.txtinputMobile.addTextChangedListener(object: TextWatcher{
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                binding.enteringPhonenumberUser.isErrorEnabled=false
+                binding.enteringPhonenumberUser.error=null
+            }
+
+            @SuppressLint("ResourceType")
+            override fun onTextChanged(p0: CharSequence?,
+                                       p1: Int, p2: Int, p3: Int) {
+                // check inputted text that it is a valid email address or not
+                if (p0.isValidPhoneNumber()){
+                    binding.enteringPhonenumberUser.hint="لطفا شماره موبایل خود را وارد نمایید..."
+                    binding.enteringPhonenumberUser.isErrorEnabled=false
+                    binding.enteringPhonenumberUser.error=null
+                    binding.enteringPhonenumberUser.isHelperTextEnabled=true
+                    binding.enteringPhonenumberUser.helperText="${binding.txtinputMobile.text.toString()} : شماره موبایل شما عبارت است از"
+                }else if (binding.txtinputMobile.text!!.isEmpty()){
+                    binding.enteringPhonenumberUser.isHelperTextEnabled=false
+                    binding.enteringPhonenumberUser.hint="لطفا شماره موبایل خود را وارد نمایید(بدون صفر اول و 98+)"
+
+
+                    binding.enteringPhonenumberUser.isErrorEnabled=false
+                    binding.enteringPhonenumberUser.error=null
+
+                }
+                else{
+                    binding.enteringPhonenumberUser.hint="لطفا شماره موبایل خود را وارد نمایید..."
+                    binding.enteringPhonenumberUser.isErrorEnabled=true
+                    binding.enteringPhonenumberUser.isHelperTextEnabled=false
+                    binding.enteringPhonenumberUser.error = "شماره موبایل شما اشتباه یا کامل نمی باشد"
+                }
+            }
+
+            override fun afterTextChanged(p0: Editable?) { }
+        })
+
+
+        //اضافه کردن قسمت رمز عبور
+
+
+
+
+
+
+
+
         if (checkesm && checkemail && checkgendertype&&checkramz&&checkshomare) {
             val activityasli = Intent(this, MainActivity::class.java)
             finish()
@@ -58,11 +220,14 @@ class Activityasliaval:BaseActivity() {
             val checkramz=binding.txtinputRamz
 
 
-            if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()||checkshomaremobile.text!!.isEmpty()||checkramz.text!!.isEmpty()){
 
 
 
-            if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()||checkshomaremobile.text!!.isEmpty()||checkramz.text!!.isEmpty()) {
+            if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()||checkshomaremobile.text!!.isEmpty()||checkramz.text!!.isEmpty()||!binding.enteringEmailUser.isHelperTextEnabled||!binding.enteringPhonenumberUser.isHelperTextEnabled){
+
+
+
+            if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()||checkshomaremobile.text!!.isEmpty()||checkramz.text!!.isEmpty()||!binding.enteringEmailUser.isHelperTextEnabled||!binding.enteringPhonenumberUser.isHelperTextEnabled) {
 
                 if (checkerinputesm.text!!.isEmpty()) {
 
@@ -78,6 +243,7 @@ class Activityasliaval:BaseActivity() {
 
                 if (checkerinputemail.text!!.isEmpty()) {
 
+                    isEmailValid(checkaddress.text.toString())
                     binding.enteringEmailUser.isErrorEnabled = true
                     binding.enteringEmailUser.error = "لطفا ایمیل خود را وارد نمایید"
 
@@ -104,14 +270,31 @@ class Activityasliaval:BaseActivity() {
 
                 if (checkramz.text!!.isEmpty()) {
 
-                    binding.enteringPhonenumberUser.isErrorEnabled = true
-                    binding.enteringPhonenumberUser.error = "لطفا رمز عبور دلخواه خود را وارد نمایید"
+                    binding.enteringRamzUser.isErrorEnabled = true
+                    binding.enteringRamzUser.error = "لطفا رمز عبور دلخواه خود را وارد نمایید"
 
-                } else if (checkramz.text!!.isEmpty()) {
-                    binding.enteringPhonenumberUser.isErrorEnabled = false
+                } else if (checkramz.text!!.isNotEmpty()) {
+                    binding.enteringRamzUser.isErrorEnabled = false
 
 
                 }
+
+                if (binding.enteringEmailUser.isHelperTextEnabled){
+                    binding.enteringEmailUser.isErrorEnabled=false
+
+                }else{
+                    binding.enteringEmailUser.error="لطفا ایمیل خود را مجددا بررسی نمایید"
+                }
+
+
+
+                if (binding.txtinputMobile.text!!.length<9){
+                    binding.enteringPhonenumberUser.error="لطفا شماره موبایل خود را مجددا بررسی نمایید"
+                }else{
+                    binding.enteringPhonenumberUser.isErrorEnabled=false
+                }
+
+
 
 
                 Toast.makeText(this, "لطفا موارد قرمز رنگ را وارد نمایید", Toast.LENGTH_SHORT)
@@ -140,7 +323,7 @@ class Activityasliaval:BaseActivity() {
 
 
 
-                if (checkerinputesm.text!!.isNotEmpty() && checkerinputemail.text!!.isNotEmpty() && checkrdiogroup.isNotEmpty()&&checkshomaremobile.text!!.isNotEmpty()&&checkramz.text!!.isNotEmpty()) {
+                if (checkerinputesm.text!!.isNotEmpty() && checkerinputemail.text!!.isNotEmpty() && checkrdiogroup.isNotEmpty()&&checkshomaremobile.text!!.isNotEmpty()&&checkramz.text!!.isNotEmpty()&&binding.enteringEmailUser.isHelperTextEnabled&&binding.enteringPhonenumberUser.isHelperTextEnabled) {
 
                     binding.enteringNameUser.isErrorEnabled = false
                     binding.enteringEmailUser.isErrorEnabled = false
@@ -167,19 +350,24 @@ class Activityasliaval:BaseActivity() {
 
                     val rdiogr = binding.rdiogrpJensiat.checkedRadioButtonId.toInt()
 
+
+
                     if (binding.radioMale.isChecked) {
 
                         //یعنی کاربر ما مرد است
                         shareprefrence.edit().putInt("gendertype", 1).apply()
+                        gensiatkarbar.text= "جناب آقای"
 
                     } else if (binding.radioFemale.isChecked) {
                         //یعنی کاربر ما زن است
                         shareprefrence.edit().putInt("gendertype", 2).apply()
+                        gensiatkarbar.text= "سرکار خانم"
 
                     } else if (binding.radioNone.isChecked) {
 
                         //یعنی کاربر ما نامعلوم است
                         shareprefrence.edit().putInt("gendertype", 3).apply()
+                        gensiatkarbar.text= "جناب آقای / سرکار خانم"
                     }
 
 
@@ -192,7 +380,7 @@ class Activityasliaval:BaseActivity() {
             else {
 
 
-                if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()||checkshomaremobile.text!!.isEmpty()||checkramz.text!!.isEmpty()) {
+                if (checkerinputesm.text!!.isEmpty() || checkerinputemail.text!!.isEmpty() || binding.rdiogrpJensiat.isEmpty()||checkshomaremobile.text!!.isEmpty()||checkramz.text!!.isEmpty()||!binding.enteringEmailUser.isHelperTextEnabled||!binding.enteringPhonenumberUser.isHelperTextEnabled) {
 
                     if (checkerinputesm.text!!.isEmpty()) {
 
@@ -208,11 +396,12 @@ class Activityasliaval:BaseActivity() {
 
 
                     if (checkerinputemail.text!!.isEmpty()) {
-
+                        isEmailValid(checkaddress.text.toString())
                         binding.enteringEmailUser.isErrorEnabled = true
                         binding.enteringEmailUser.error = "لطفا ایمیل خود را وارد نمایید"
 
                     } else if (checkerinputemail.text!!.isNotEmpty()) {
+                        isEmailValid(checkaddress.text.toString())
                         binding.enteringEmailUser.isErrorEnabled = false
 
                     }
@@ -234,13 +423,26 @@ class Activityasliaval:BaseActivity() {
 
                     if (checkramz.text!!.isEmpty()) {
 
-                        binding.enteringPhonenumberUser.isErrorEnabled = true
-                        binding.enteringPhonenumberUser.error = "لطفا رمز عبور دلخواه خود را وارد نمایید"
+                        binding.enteringRamzUser.isErrorEnabled = true
+                        binding.enteringRamzUser.error = "لطفا رمز عبور دلخواه خود را وارد نمایید"
 
                     } else if (checkramz.text!!.isEmpty()) {
-                        binding.enteringPhonenumberUser.isErrorEnabled = false
+                        binding.enteringRamzUser.isErrorEnabled = false
 
 
+                    }
+
+                    if (binding.enteringEmailUser.isHelperTextEnabled){
+                        binding.enteringEmailUser.isErrorEnabled=false
+
+                    }else{
+                        binding.enteringEmailUser.error="لطفا ایمیل خود را مجددا بررسی نمایید"
+                    }
+
+                    if (binding.txtinputMobile.text!!.length<9){
+                        binding.enteringPhonenumberUser.error="لطفا شماره موبایل خود را مجددا بررسی نمایید"
+                    }else{
+                        binding.enteringPhonenumberUser.isErrorEnabled=false
                     }
 
                     Toast.makeText(this, "لطفا موارد قرمز رنگ را وارد نمایید", Toast.LENGTH_SHORT).show()
@@ -256,7 +458,7 @@ class Activityasliaval:BaseActivity() {
                 }
 
 
-                 if (checkerinputesm.text!!.isNotEmpty() && checkerinputemail.text!!.isNotEmpty() && checkrdiogroup.isNotEmpty()&&checkshomaremobile.text!!.isNotEmpty()&&checkramz.text!!.isNotEmpty()) {
+                 if (checkerinputesm.text!!.isNotEmpty() && checkerinputemail.text!!.isNotEmpty() && checkrdiogroup.isNotEmpty()&&checkshomaremobile.text!!.isNotEmpty()&&checkramz.text!!.isNotEmpty()&&binding.enteringEmailUser.isHelperTextEnabled&&binding.enteringPhonenumberUser.isHelperTextEnabled) {
 
                      binding.enteringNameUser.isErrorEnabled = false
                      binding.enteringEmailUser.isErrorEnabled = false
@@ -285,15 +487,18 @@ class Activityasliaval:BaseActivity() {
 
                         //یعنی کاربر ما مرد است
                         shareprefrence.edit().putInt("gendertype", 1).apply()
+                         gensiatkarbar.text= "جناب آقای"
 
                     } else if (binding.radioFemale.isChecked) {
                         //یعنی کاربر ما زن است
                         shareprefrence.edit().putInt("gendertype", 2).apply()
+                         gensiatkarbar.text= "سرکار خانم"
 
                     } else if (binding.radioNone.isChecked) {
 
                         //یعنی کاربر ما نامعلوم است
                         shareprefrence.edit().putInt("gendertype", 3).apply()
+                         gensiatkarbar.text= "جناب آقای / سرکار خانم"
                     }
 
                 }
@@ -382,7 +587,25 @@ class Activityasliaval:BaseActivity() {
 
 
 
-    }}
+    }
+//متد اول چک کردن ایمیل
+    private fun isEmailValid(email: String): Boolean {
+        return android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()
+    }
+
+    //متد دوم چک کردن  ایمیل
+
+    fun CharSequence?.isValidEmail():Boolean{
+        return this!!.isNotEmpty() && android.util.Patterns.EMAIL_ADDRESS.matcher(this).matches()
+    }
+
+    //متد چک کردن شماره موبایل
+
+     fun CharSequence?.isValidPhoneNumber():Boolean {
+        return !isNullOrEmpty() && Patterns.PHONE.matcher(this).matches()&&binding.txtinputMobile.text!!.length==10
+    }
+
+}
 
 
 

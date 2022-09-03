@@ -6,109 +6,110 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
+8-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
+9-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:6:5-67
-11-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:6:22-64
+11-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:7:5-79
-12-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:7:22-76
+12-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:7:22-76
 13
 14    <application
-14-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:9:5-45:19
+14-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:9:5-45:19
 15        android:allowBackup="true"
-15-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:11:9-35
+15-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:11:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.8.0] C:\Users\ThinkPad\.gradle\caches\transforms-3\c35c0d9480f232f7279f51f9028e1d15\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+16-->[androidx.core:core:1.8.0] C:\Users\alido\.gradle\caches\transforms-3\c35c0d9480f232f7279f51f9028e1d15\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:12:9-65
+17-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:12:9-65
 18        android:debuggable="true"
 19        android:fullBackupContent="@xml/backup_rules"
-19-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:13:9-54
+19-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:13:9-54
 20        android:icon="@drawable/ic_alert"
-20-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:14:9-42
+20-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:14:9-42
 21        android:label="@string/app_name"
-21-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:15:9-41
+21-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:15:9-41
 22        android:roundIcon="@drawable/ic_alert"
-22-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:16:9-47
+22-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:16:9-47
 23        android:supportsRtl="true"
-23-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:17:9-35
-24        android:theme="@style/Theme.Helpiran" >
-24-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:18:9-46
-25        <activity
-25-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:9-30:20
-26            android:name="ir.ez4.helpiran.activities.Activityasliaval"
-26-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:19-62
-27            android:exported="true" >
-27-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:63-86
-28            <intent-filter>
-28-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:24:13-28:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:25:17-69
-29-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:25:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:27:17-77
-31-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:27:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity
-34-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:31:9-33:40
-35            android:name="ir.ez4.helpiran.activities.Activitychipmanager"
-35-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:32:13-59
-36            android:exported="false" />
-36-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:33:13-37
-37        <activity
-37-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:34:9-36:40
-38            android:name="ir.ez4.helpiran.activities.Activityopenermenujadid"
-38-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:35:13-63
-39            android:exported="false" /> <!-- مربوط به لایه تست هستش و هیچوقت نباید روی لایه اصلی فراخوان بشود -->
-39-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:36:13-37
-40        <activity
-40-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:37:9-39:40
-41            android:name="ir.ez4.helpiran.activities.MainActivity2"
-41-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:38:13-53
-42            android:exported="false" /> <!-- لایه اصلی که استفاده شده است -->
-42-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:39:13-37
-43        <activity
-43-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:40:9-42:39
-44            android:name="ir.ez4.helpiran.activities.MainActivity"
-44-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:41:13-52
-45            android:exported="false" />
-45-->C:\Users\ThinkPad\Desktop\myposhe\tempamir\androidstudio\projectkotline\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:42:13-37
-46
-47        <provider
-47-->[com.squareup.picasso:picasso:2.71828] C:\Users\ThinkPad\.gradle\caches\transforms-3\fe25b70b4a3fcd927b5982c243d08b9d\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-48            android:name="com.squareup.picasso.PicassoProvider"
-48-->[com.squareup.picasso:picasso:2.71828] C:\Users\ThinkPad\.gradle\caches\transforms-3\fe25b70b4a3fcd927b5982c243d08b9d\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-49            android:authorities="ir.ez4.helpiran.com.squareup.picasso"
-49-->[com.squareup.picasso:picasso:2.71828] C:\Users\ThinkPad\.gradle\caches\transforms-3\fe25b70b4a3fcd927b5982c243d08b9d\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-50            android:exported="false" />
-50-->[com.squareup.picasso:picasso:2.71828] C:\Users\ThinkPad\.gradle\caches\transforms-3\fe25b70b4a3fcd927b5982c243d08b9d\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-51        <provider
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-52            android:name="androidx.startup.InitializationProvider"
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-53            android:authorities="ir.ez4.helpiran.androidx-startup"
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-54            android:exported="false" >
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-55            <meta-data
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-57                android:value="androidx.startup" />
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ThinkPad\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-58            <meta-data
-58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ThinkPad\.gradle\caches\transforms-3\fcc051f176d23643181d826df44700be\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ThinkPad\.gradle\caches\transforms-3\fcc051f176d23643181d826df44700be\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-60                android:value="androidx.startup" />
-60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ThinkPad\.gradle\caches\transforms-3\fcc051f176d23643181d826df44700be\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-61        </provider>
-62    </application>
-63
-64</manifest>
+23-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:17:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Helpiran" >
+25-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:18:9-46
+26        <activity
+26-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:9-30:20
+27            android:name="ir.ez4.helpiran.activities.Activityasliaval"
+27-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:19-62
+28            android:exported="true" >
+28-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:22:63-86
+29            <intent-filter>
+29-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:24:13-28:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:25:17-69
+30-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:25:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:27:17-77
+32-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:27:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:31:9-33:40
+36            android:name="ir.ez4.helpiran.activities.Activitychipmanager"
+36-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:32:13-59
+37            android:exported="false" />
+37-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:33:13-37
+38        <activity
+38-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:34:9-36:40
+39            android:name="ir.ez4.helpiran.activities.Activityopenermenujadid"
+39-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:35:13-63
+40            android:exported="false" /> <!-- مربوط به لایه تست هستش و هیچوقت نباید روی لایه اصلی فراخوان بشود -->
+40-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:36:13-37
+41        <activity
+41-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:37:9-39:40
+42            android:name="ir.ez4.helpiran.activities.MainActivity2"
+42-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:38:13-53
+43            android:exported="false" /> <!-- لایه اصلی که استفاده شده است -->
+43-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:39:13-37
+44        <activity
+44-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:40:9-42:39
+45            android:name="ir.ez4.helpiran.activities.MainActivity"
+45-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:41:13-52
+46            android:exported="false" />
+46-->C:\Users\alido\Desktop\projectkotline\helpiran\helpiran\app\src\main\AndroidManifest.xml:42:13-37
+47
+48        <provider
+48-->[com.squareup.picasso:picasso:2.71828] C:\Users\alido\.gradle\caches\transforms-3\2f6381802fb03846544ecd95e3952ed3\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+49            android:name="com.squareup.picasso.PicassoProvider"
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\alido\.gradle\caches\transforms-3\2f6381802fb03846544ecd95e3952ed3\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+50            android:authorities="ir.ez4.helpiran.com.squareup.picasso"
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\alido\.gradle\caches\transforms-3\2f6381802fb03846544ecd95e3952ed3\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+51            android:exported="false" />
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\alido\.gradle\caches\transforms-3\2f6381802fb03846544ecd95e3952ed3\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="ir.ez4.helpiran.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\alido\.gradle\caches\transforms-3\db1d7b32e46cd72aed7849da7e23013a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\alido\.gradle\caches\transforms-3\fcc051f176d23643181d826df44700be\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\alido\.gradle\caches\transforms-3\fcc051f176d23643181d826df44700be\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\alido\.gradle\caches\transforms-3\fcc051f176d23643181d826df44700be\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

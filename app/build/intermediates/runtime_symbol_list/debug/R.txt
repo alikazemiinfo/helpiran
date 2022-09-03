@@ -3512,6 +3512,7 @@ int id txt_explore_detail 0x7f090288
 int id txt_explore_subtitle 0x7f090289
 int id txt_explore_title 0x7f09028a
 int id txt_ghabeliattesti 0x7f09028b
+int id txt_jensiat 0x7f0902bc
 int id txt_main_asli 0x7f09028c
 int id txt_main_title2 0x7f09028d
 int id txt_myprofile_esm 0x7f09028e
